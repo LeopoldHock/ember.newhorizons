@@ -1,0 +1,184 @@
+:root {
+    --colorPanelBackground: #222222;
+    --colorPanelBorder: #5F5F5F;
+    --colorPanelBorderOuter: #5e5e5e33;
+    --colorPanelInnerBackground: #3b3b3b;
+    --panelBorderRadius: 0px;
+    --panelBorderGradient: linear-gradient(to right, var(--colorPanelBorderOuter), var(--colorPanelBorder), var(--colorPanelBorderOuter)) 1;
+    --panelBorderGradientVertical: linear-gradient(to bottom, var(--colorPanelBorderOuter), var(--colorPanelBorder), var(--colorPanelBorderOuter)) 1;
+    /* --colorTutorialBoxBackground: rgba(65, 141, 141, 0.5); */
+    --tutorialBoxBackgroundGradient: linear-gradient(to right, transparent, #41666836, transparent);
+}
+
+.header-toolbar {
+    width: 100%;
+    height: var(--headerToolbarHeight);
+    background-color: var(--colorPanelBackground);
+    border-bottom: 1px solid;
+    border-image: var(--panelBorderGradient);
+    display: flex;
+    position: relative;
+    z-index: 20;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.branding-bar {
+    width: 100%;
+    height: var(--brandingBarHeight);
+    background-color: var(--colorTealNeon);
+    position: relative;
+}
+
+.panel, form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    z-index: 10;
+}
+
+.panel {
+    margin: 10px auto 10px auto;
+    padding: 25px;
+    min-height: 50px;
+    background-color: var(--colorPanelBackground);
+    border-radius: var(--panelBorderRadius);
+    border: 1px solid;
+    border-image: var(--panelBorderGradient);
+}
+
+.panel-header {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-header button {
+    margin-left: 25px;
+}
+
+.panel-inner {
+    width: calc(100% - 10px);
+    margin: 5px auto 5px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorPanelInnerBackground);
+    border: 1px solid var(--colorPanelBorder);
+}
+
+.panel-max {
+    width: 100%;
+    max-width: 100%;
+}
+
+.panel-large {
+    width: 800px;
+    max-width: 100%;
+}
+
+.panel-medium {
+    width: 650px;
+    max-width: 100%;
+}
+
+.panel-small {
+    width: 500px;
+    max-width: 100%;
+}
+
+.panel-tiny {
+    width: 400px;
+    max-width: 100%;
+}
+
+.panel-sep {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 2px;
+    height: 2px;
+    background-color: white;
+}
+
+
+.card {
+    height: 100%;
+    transition: 200ms;
+    background-color: var(--colorPanelBackground);
+    border-radius: var(--panelBorderRadius);
+    border-image: var(--panelBorderGradient);
+}
+
+.card * {
+    transition: 200ms;
+}
+
+.card:hover {
+    background-color: var(--colorPanelInnerBackground);
+}
+
+.card:hover * {
+    color: var(--colorTextHighlight);
+}
+
+.card:hover card-icon {
+    text-shadow: 0 0 10px var(--colorTextHighlight);
+}
+
+.card-icon {
+    margin-top: 25px;
+}
+
+.card-text {
+    margin: 25px;
+    margin-bottom: 25px !important;
+}
+
+
+.tutorial-box {
+    margin: 10px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, transparent, var(--colorTealNeon), transparent) 1;
+    background-color: var(--colorTutorialBoxBackground);
+    background-image: var(--tutorialBoxBackgroundGradient);
+    opacity: 1;
+    transition: opacity 0.5s;
+    /* transition: max-height 0.5s; */
+    /* max-height: 200px; */
+    overflow-y: auto;
+}
+
+.tutorial-box-closing {
+    opacity: 0;
+    /* max-height: 0px; */
+    overflow: hidden;
+}
+
+.tutorial-box-hidden {
+    display: none;
+}
+
+.tutorial-box-close-button {
+    min-width: 30px;
+    background: none;
+    border: none;
+    color: var(--colorTextDefault);
+    margin: auto;
+    margin-right: 15px;
+}
+
+.tutorial-box-close-button:hover {
+    color: var(--colorTextHighlight);
+}
+
+.tutorial-box-title {
+    margin: 5px 10px 5px 10px;
+    color: var(--colorTextHighlight);
+}
+
+.tutorial-box-text {
+    margin: 0px 10px 5px 10px;
+    color: var(--colorTextDefault);
+}

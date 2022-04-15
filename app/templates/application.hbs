@@ -1,0 +1,67 @@
+{{!--INVISIBILE FORM IFRAME--}}
+<iframe name="frame" class="invisible" title={{localize "route/application/title" }}></iframe>
+
+{{!--HEADER TOOLBAR--}}
+<div class="branding-bar"></div>
+<div class="header-toolbar justify-content-between">
+    <button id="leftSidebarButton" class="header-sidebar-button" type="button" {{on 'click' (fn
+        this.toggleSidebar "leftSidebar" )}}>
+        <FaIcon @icon={{if this.leftSidebarExpanded "chevron-left" "bars" }} @size="2x" />
+    </button>
+    <div class="h-boxItem justify-content-center">
+        <h4 class="fg-teal-neon ts-teal-neon marginAuto">{{localize "route/application/title"}}</h4>
+    </div>
+    <button id="rightSidebarButton" class="header-sidebar-button" type="button" {{on 'click' (fn
+        this.toggleSidebar "rightSidebar" )}}>
+        {{#if this.rightSidebarExpanded}}
+        <FaIcon @icon="chevron-right" @size="2x" />
+        {{else}}
+        {{#if this.session.isAuthenticated}}
+        <FaIcon @icon="user" @size="2x" />
+        {{else}}
+        <FaIcon @icon="user" @prefix="far" @size="2x" />
+        {{/if}}
+        {{/if}}
+    </button>
+</div>
+
+{{!--LEFT SIDEBAR--}}
+<div id="leftSidebar" class="sidebar sidebar-left">
+    <div id="leftSidebarContent" class="sidebar-left-content">
+        <PortalTarget @name="sidebar-left" />
+        <Portal @target="sidebar-left" @renderInPlace={{true}}>
+            <Sidebar::Left::Main />
+        </Portal>
+    </div>
+</div>
+
+{{!--RIGHT SIDEBAR--}}
+<div id="rightSidebar" class="sidebar sidebar-right">
+    <div id="rightSidebarContent" class="sidebar-right-content">
+        <PortalTarget @name="sidebar-right" />
+        <Portal @target="sidebar-right" @renderInPlace={{true}}>
+            <Sidebar::Right::Main />
+        </Portal>
+    </div>
+</div>
+
+
+<div id="stars2"></div>
+<div id="stars3"></div>
+
+{{!--PAGE CONTENT--}}
+<div id="pageOutletContainer">
+    <div id="pageOutlet">
+        {{outlet}}
+    </div>
+</div>
+
+{{!--MODALS--}}
+<div id="modal-container">
+    {{#if this.modalService.isActive}}
+    {{component this.modalService.componentName}}
+    {{/if}}
+</div>
+
+{{!-- NOTIFICATIONS --}}
+<NotificationContainer @position="bottom" @zindex="60" />

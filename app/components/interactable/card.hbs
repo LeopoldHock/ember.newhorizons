@@ -1,0 +1,9 @@
+<button type="button" class="card align-items-center v-box" {{on "click" this.onClick}}>
+    {{#if @icon}}
+    <FaIcon @icon={{@icon}} @prefix={{@prefix}} @size="3x" class="card-icon fg-grey-medium" />
+    {{/if}}
+    {{#if @imageSrc}}
+    {{/if}}
+    <p class="card-text text-center">{{@text}}
+    </p>
+</button>

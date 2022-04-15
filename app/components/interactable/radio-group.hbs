@@ -1,0 +1,13 @@
+<div class="interactable-container label-position-{{this.labelPosition}}">
+    <label class="label label-inline h6">{{@label}}</label>
+    <div class="radio-group">
+        {{#each @options as |option|}}
+        <label class="radio-container radio-label h6 fg-text-default">
+            {{option.caption}}
+            <input id="radio-{{@radioName}}-input-{{option.value}}" type="radio" name="radio-{{@radioName}}"
+                {{on "change" (fn this.onChange option.value)}} value={{option.value}} checked={{option.checked}} />
+            <span class="radio-checkmark"></span>
+        </label>
+        {{/each}}
+    </div>
+</div>

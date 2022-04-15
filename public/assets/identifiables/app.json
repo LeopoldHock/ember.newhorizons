@@ -1,0 +1,496 @@
+[
+    {
+        "id": "app/mid-hacking/expose",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 5,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/freeze",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 4,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/fuck-you-sesame",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 3,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/iffoverride",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 6,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/instant-sc",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 4,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/nade-safe",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 3,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/overheat",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 5,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/slow",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 3,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/take-over",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 3,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/mid-hacking/taunt",
+        "appCategory": "ability/general/mid-hacking",
+        "factor": 4,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/mid-hacking",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/order-move",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 3,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/order-open-fire",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 6,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/order-take-aim",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 5,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/order-take-cover",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 4,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/recon-cover",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 3,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/recon-equipment",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 3,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/recon-life-signs",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 5,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/recon-trajectories",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 6,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "app/vti-commanding/recon-weak-spot",
+        "appCategory": "ability/general/vti-commanding",
+        "factor": 6,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "requirements": [
+            {
+                "id": "ability/general/vti-commanding",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    }
+]

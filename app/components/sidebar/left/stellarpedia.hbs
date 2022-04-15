@@ -1,0 +1,28 @@
+<button class="sidebar-button-1" type="button" {{on 'click' this.returnToPrevious}}>
+    <FaIcon @icon="chevron-left" @size={{this.sidebarIconSize}} class="margin-sides-medium fg-teal-neon" />
+    <p class="margin-vertical-auto">{{localize "sidebar/stellarpedia/back"}}</p>
+</button>
+<div class="sidebar-sep" />
+<div class="h-box justify-content-between">
+    <h4 class="fg-white margin-vertical-medium sidebar-header">{{localize "sidebar/stellarpedia/title"}}</h4>
+    <div class="sidebar-header-toolbar">
+        <button id="sidebar-reduce-all-button" type="button" class="sidebar-button-tiny" {{on "click"
+            this.onReduceAllClick}}>
+            <FaIcon @icon="up-down" />
+        </button>
+    </div>
+</div>
+<div class="v-box" id="generator-tabs">
+    {{#each this.stellarpedia.sidebarData as |book|}}
+    <Stellarpedia::SidebarBook @book={{book}} @expanded={{book.expanded}}>
+        {{#each book.chapters as |chapter|}}
+        <Stellarpedia::SidebarChapter @book={{book}} @chapter={{chapter}} @expanded={{chapter.expanded}}>
+            {{#each chapter.entries as |entry|}}
+            <Stellarpedia::SidebarEntry @book={{book}} @chapter={{chapter}} @entry={{entry}}
+                @selected={{entry.selected}} />
+            {{/each}}
+        </Stellarpedia::SidebarChapter>
+        {{/each}}
+    </Stellarpedia::SidebarBook>
+    {{/each}}
+</div>

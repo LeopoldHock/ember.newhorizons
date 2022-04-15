@@ -1,0 +1,42 @@
+<Layout::Panel @size="medium">
+    <Layout::PanelHeader @title={{localize "route/generator/personal/title" }}
+        @article="basic-rules/the-first-character/who-are-you" />
+    <form>
+        <Misc::TutorialBox @title={{localize "route/generator/personal/tutorial-01/title" }}
+            @text={{localize "route/generator/personal/tutorial-01/text" }} @tracker={{this.generator}}
+            @tutorialId={{"personal/tutorial-01"}} />
+        <Interactable::Inputfield @changeset={{this.changeset}} @label={{localize "Route/generator/personal/name" }}
+            @labelSize="medium" @key="name" @size="larger" @required={{true}} @maxLength="100" @alignment="start"
+            @onChangeListener={{this.onChange}} />
+        <Interactable::Inputfield @changeset={{this.changeset}} @label={{localize "Route/generator/personal/sex" }}
+            @labelSize="medium" @key="sex" @size="medium" @required={{true}} @maxLength="40" @alignment="start"
+            @onChangeListener={{this.onChange}} />
+        <Interactable::Inputfield @changeset={{this.changeset}} @label={{localize "Route/generator/personal/age" }}
+            @labelSize="medium" @key="age" @size="medium" @required={{true}} @maxLength="3"
+            @pattern={{this.manager.patter.numeric}} @alignment="start" @onChangeListener={{this.onChange}} />
+        <Interactable::Inputfield @changeset={{this.changeset}} @label={{localize "Route/generator/personal/birthday" }}
+            @labelSize="medium" @key="birthday" @size="medium" @required={{true}} @maxLength="10" @alignment="start"
+            @onChangeListener={{this.onChange}} />
+        <Interactable::Inputfield @changeset={{this.changeset}} @label={{localize "Route/generator/personal/height" }}
+            @labelSize="medium" @key="height" @size="medium" @required={{true}} @maxLength="3" @alignment="start"
+            @onChangeListener={{this.onChange}} />
+        <Interactable::Inputfield @changeset={{this.changeset}} @label={{localize "Route/generator/personal/weight" }}
+            @labelSize="medium" @key="weight" @size="medium" @required={{true}} @maxLength="3" @alignment="start"
+            @onChangeListener={{this.onChange}} />
+        <Misc::Spacer />
+        <Interactable::ValueControl @value={{this.changeset.socialStatus}}
+            @label={{localize "Route/generator/personal/social-status" }} @labelSize="medium" @alignment="start"
+            @onChangeListener={{this.onChangeSocialStatus}} @min={{this.model.socialStatusMin}}
+            @max={{this.model.socialStatusMax}} @info="basic-rules/the-first-character/who-are-you" @save={{true}} />
+        <Misc::TutorialBox @title={{localize "route/generator/personal/tutorial-01/title" }}
+            @text={{localize "route/generator/personal/tutorial-02/text" }} @tracker={{this.generator}}
+            @tutorialId={{"personal/tutorial-02"}} />
+        <Misc::Spacer />
+        <Interactable::TextArea @changeset={{this.changeset}} @label={{localize "Route/generator/personal/appearance" }}
+            @placeholder={{localize "Route/generator/personal/appearance-placeholder" }} @key="appearance"
+            @maxLength="255" @onChangeListener={{this.onChange}} />
+        <Interactable::TextArea @changeset={{this.changeset}} @label={{localize "Route/generator/personal/family" }}
+            @placeholder={{localize "Route/generator/personal/family-placeholder" }} @key="family" @maxLength="255"
+            @onChangeListener={{this.onChange}} />
+    </form>
+</Layout::Panel>

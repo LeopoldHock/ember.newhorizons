@@ -1,0 +1,41 @@
+:root {
+    --colorScrollbarHandle: #5F5F5F;
+    --colorScrollbarHandleActive: #498082;
+    --colorScrollbarBackground: #252525;
+}
+
+/* Firefox */
+
+body {
+    scrollbar-color: var(--colorScrollbarHandle) var(--colorScrollbarBackground);
+}
+
+/* Webkit */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: var(--colorScrollbarHandle);
+}
+
+::-webkit-scrollbar-button:active {
+    background-color: var(--colorScrollbarHandleActive);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--colorScrollbarBackground);
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: var(--colorScrollbarBackground);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--colorScrollbarHandle);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--colorScrollbarHandleActive);
+}

@@ -1,0 +1,52 @@
+<h2 class="fg-white text-center">{{localize "Route/generator/skills/title"}}</h2>
+<Layout::Panel @size="large" @alignment="center">
+    <Misc::Title @titleStyle="h3" @text={{localize "Route/generator/skills/interests" }} />
+    <h5>{{localize "Route_Generator_Skills_IpAvailable"}}: {{this.generator.ipAvailable}}</h5>
+    <div class="row full-width justify-content-center align-items-start">
+        {{#each @model.skillCategories as |skillCategory|}}
+        <div class="col-lg-6">
+            <Interactable::ValueControl @object={{skillCategory}} @step={{5}} @value={{skillCategory.total}}
+                @label={{localize skillCategory.id }} @labelSize="medium" @alignment="space-between"
+                @onChangeListener={{this.onInterestChange}} @min={{skillCategory.min}} @max={{skillCategory.max}}
+                @budget={{this.generator.ipAvailable}} @budgetMin={{5}} />
+
+        </div>
+        {{/each}}
+    </div>
+    <Misc::Spacer />
+    <Misc::Title @titleStyle="h3" @text={{localize "Route_Generator_Skills_Skills" }} />
+    <div class="full-width">
+        <BsTab as |tab|>
+            <tab.pane @title={{localize "Route/generator/skills/available-skills" }}>
+                {{#each @model.skillCategories as |skillCategory|}}
+                <Interactable::Collapsible class="full-width margin-vertical-medium" @noPadding={{true}} @size="medium"
+                    @title={{localize skillCategory.id }} @collapsed={{skillCategory.collapsibleCollapsedAvailable}}
+                    @counterLabel={{localize "route/generator/skills/skill-category-ip" }}
+                    @counterValue={{skillCategory.available}} @counterMin={{skillCategory.min}}
+                    @counterMax={{skillCategory.total}}>
+                    <div class="responsive-table full-width">
+                        <List::Skills @character={{@model.character}} @data={{@model.skillsAvailable}}
+                            @skillCategory={{skillCategory.id}} @sortingKey="localizedLabel" @isGenerator={{true}}
+                            @isOwned={{false}} @budget={{skillCategory.available}} />
+                    </div>
+                </Interactable::Collapsible>
+                {{/each}}
+            </tab.pane>
+            <tab.pane @title={{localize "Route/generator/skills/owned-skills" }}>
+                {{#each @model.skillCategories as |skillCategory|}}
+                <Interactable::Collapsible class="full-width margin-vertical-medium" @noPadding={{true}} @size="medium"
+                    @title={{localize skillCategory.id }} @collapsed={{skillCategory.collapsibleCollapsedOwned}}
+                    @counterLabel={{localize "route/generator/skills/skill-category-ip" }}
+                    @counterValue={{skillCategory.available}} @counterMin={{skillCategory.min}}
+                    @counterMax={{skillCategory.total}}>
+                    <div class="responsive-table full-width">
+                        <List::Skills @character={{@model.character}} @data={{@model.skillsOwned}}
+                            @skillCategory={{skillCategory.id}} @sortingKey="localizedLabel" @isGenerator={{true}}
+                            @isOwned={{true}} @budget={{skillCategory.available}} />
+                    </div>
+                </Interactable::Collapsible>
+                {{/each}}
+            </tab.pane>
+        </BsTab>
+    </div>
+</Layout::Panel>

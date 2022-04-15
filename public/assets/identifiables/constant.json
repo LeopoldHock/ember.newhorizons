@@ -1,0 +1,114 @@
+[
+    {
+        "id": "constant/special-pri-a-bonus",
+        "value": 1
+    },
+    {
+        "id": "constant/pri-a-factor",
+        "value": 25
+    },
+    {
+        "id": "constant/pri-a-max-multiplier",
+        "value": 1.5
+    },
+    {
+        "id": "constant/pri-a-generation-minimum",
+        "value": 8
+    },
+    {
+        "id": "constant/pri-a-generation-maximum",
+        "value": 14
+    },
+    {
+        "id": "constant/interests-ip-step",
+        "value": 5
+    },
+    {
+        "id": "constant/skills-buy-multiplier",
+        "value": 10
+    },
+    {
+        "id": "constant/skills-cost-exponent",
+        "value": 1.5
+    },
+    {
+        "id": "constant/skills-cost-min",
+        "value": 10
+    },
+    {
+        "id": "constant/skills-pri-a-max-diff",
+        "value": 3
+    },
+    {
+        "id": "constant/skills-max-level-per-ip-multiplier",
+        "value": 0.2
+    },
+    {
+        "id": "constant/skills-max-level-per-ip-minimum",
+        "value": 3
+    },
+    {
+        "id": "constant/skills-default-factor-combat",
+        "value": 6
+    },
+    {
+        "id": "constant/skills-default-factor-physical",
+        "value": 5
+    },
+    {
+        "id": "constant/skills-default-factor-crafting",
+        "value": 3
+    },
+    {
+        "id": "constant/skills-default-factor-vehicles",
+        "value": 6
+    },
+    {
+        "id": "constant/skills-default-factor-social",
+        "value": 4
+    },
+    {
+        "id": "constant/skills-default-factor-knowledge",
+        "value": 3
+    },
+    {
+        "id": "constant/specialisations-buy-step",
+        "value": 7
+    },
+    {
+        "id": "constant/specialisations-skill-bonus",
+        "value": 5
+    },
+    {
+        "id": "constant/specialisations-buy-multiplier",
+        "value": 100
+    },
+    {
+        "id": "constant/traits-inability-bonus-multiplier",
+        "value": 3.0
+    },
+    {
+        "id": "constant/traits-cost-increase",
+        "value": 1
+    },
+    {
+        "id": "constant/apps-buy-multiplier",
+        "value": 10
+    },
+    {
+        "id": "constant/credits-so-multiplier",
+        "value": 100
+    },
+    {
+        "id": "constant/credits-jump-start-multiplier",
+        "value": 200
+    },
+    {
+        "id": "constant/faith-points-max",
+        "value": 5
+    },
+    {
+        "id": "constant/social-status-max",
+        "value": 10
+    }
+]

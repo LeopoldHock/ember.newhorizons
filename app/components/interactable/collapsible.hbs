@@ -1,0 +1,27 @@
+<button type="button"
+    class="collapsible full-width justify-content-between {{if (eq this.collapsed false) 'collapsible-expanded'}}"
+    {{on "click" this.onClick}}>
+    <div class="flex align-items-center">
+        <FaIcon @icon={{unless this.collapsed 'chevron-down' 'chevron-right' }} class="icon-fixed-width" />
+        <p>{{@title}}</p>
+    </div>
+    <div class="flex align-items-center">
+        {{#if (and this.counterLabel this.showCounter)}}
+        <p class="margin-sides-small fg-{{this.counterState}}">{{this.counterLabel}}:</p>
+        {{/if}}
+        {{#if (and this.counterMin this.showCounter)}}
+        <p class="fg-{{this.counterState}}">{{this.counterMin}}/</p>
+        {{/if}}
+        {{#if this.showCounter}}
+        <p class="fg-{{this.counterState}}">{{this.counterValue}}</p>
+        {{/if}}
+        {{#if (and this.counterMax this.showCounter)}}
+        <p class="fg-{{this.counterState}}">/{{this.counterMax}}</p>
+        {{/if}}
+    </div>
+</button>
+<BsCollapse @collapsed={{this.collapsed}}>
+    <div class="well collapsible-content collapsible-content-size-{{this.size}} {{if this.noPadding 'padding-none'}}">
+        {{yield}}
+    </div>
+</BsCollapse>

@@ -1,0 +1,178 @@
+[
+    {
+        "id": "Specialisation_skill/combat/onboard-weapons_BallisticCannons",
+        "skill": "skill/combat/onboard-weapons"
+    },
+    {
+        "id": "Specialisation_skill/combat/onboard-weapons_BallisticTurrets_GaussCannons",
+        "skill": "skill/combat/onboard-weapons"
+    },
+    {
+        "id": "Specialisation_skill/combat/onboard-weapons_TorpedoLaunchers",
+        "skill": "skill/combat/onboard-weapons"
+    },
+    {
+        "id": "Specialisation_skill/combat/rifles_AutomaticRifles",
+        "skill": "skill/combat/rifles"
+    },
+    {
+        "id": "Specialisation_skill/combat/rifles_SemiAutomaticRifles",
+        "skill": "skill/combat/rifles"
+    },
+    {
+        "id": "Specialisation_skill/combat/rifles_Shotguns",
+        "skill": "skill/combat/rifles"
+    },
+    {
+        "id": "Specialisation_skill/crafting/animal-training_AnyKindOfFamily",
+        "skill": "skill/crafting/animal-training"
+    },
+    {
+        "id": "Specialisation_skill/crafting/cooking_DrinkPreparation",
+        "skill": "skill/crafting/cooking"
+    },
+    {
+        "id": "Specialisation_skill/crafting/cooking_FoodPreparation",
+        "skill": "skill/crafting/cooking"
+    },
+    {
+        "id": "Specialisation_skill/crafting/drawing_Calligraphy",
+        "skill": "skill/crafting/drawing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/drawing_Painting",
+        "skill": "skill/crafting/drawing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/drawing_TechnicalDrawing",
+        "skill": "skill/crafting/drawing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/electrical-engineering_ComputerEngineering",
+        "skill": "skill/crafting/electrical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/electrical-engineering_ControlEngineering",
+        "skill": "skill/crafting/electrical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/electrical-engineering_Cybernetics",
+        "skill": "skill/crafting/electrical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/electrical-engineering_Mechatronics",
+        "skill": "skill/crafting/electrical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/electrical-engineering_PowerEngineering",
+        "skill": "skill/crafting/electrical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/explosives_Ammunition",
+        "skill": "skill/crafting/explosives"
+    },
+    {
+        "id": "Specialisation_skill/crafting/explosives_Disarming",
+        "skill": "skill/crafting/explosives"
+    },
+    {
+        "id": "Specialisation_skill/crafting/explosives_ExplosivesProduction",
+        "skill": "skill/crafting/explosives"
+    },
+    {
+        "id": "Specialisation_skill/crafting/explosives_Fuels",
+        "skill": "skill/crafting/explosives"
+    },
+    {
+        "id": "Specialisation_skill/crafting/making-music_AnyKindOfInsrument",
+        "skill": "skill/crafting/making-music"
+    },
+    {
+        "id": "Specialisation_skill/crafting/material-processing_MetalProcessing",
+        "skill": "skill/crafting/material-processing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/material-processing_PlasticsProcessing",
+        "skill": "skill/crafting/material-processing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/material-processing_StoneCutting",
+        "skill": "skill/crafting/material-processing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/material-processing_Tailoring",
+        "skill": "skill/crafting/material-processing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/material-processing_Woodworking",
+        "skill": "skill/crafting/material-processing"
+    },
+    {
+        "id": "Specialisation_skill/crafting/mechanical-engineering_MachineryConstruction",
+        "skill": "skill/crafting/mechanical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/mechanical-engineering_StruturalEngineering",
+        "skill": "skill/crafting/mechanical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/mechanical-engineering_VehicleConstruction",
+        "skill": "skill/crafting/mechanical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/mechanical-engineering_WeaponSmithing",
+        "skill": "skill/crafting/mechanical-engineering"
+    },
+    {
+        "id": "Specialisation_skill/crafting/medical-care_InternalMedicine",
+        "skill": "skill/crafting/medical-care"
+    },
+    {
+        "id": "Specialisation_skill/crafting/medical-care_Neurology",
+        "skill": "skill/crafting/medical-care"
+    },
+    {
+        "id": "Specialisation_skill/crafting/medical-care_Psychology",
+        "skill": "skill/crafting/medical-care"
+    },
+    {
+        "id": "Specialisation_skill/crafting/medical-care_VeterinaryMedicine",
+        "skill": "skill/crafting/medical-care"
+    },
+    {
+        "id": "Specialisation_skill/crafting/pharmaceutics_Pharmacology",
+        "skill": "skill/crafting/pharmaceutics"
+    },
+    {
+        "id": "Specialisation_skill/crafting/pharmaceutics_Toxicology",
+        "skill": "skill/crafting/pharmaceutics"
+    },
+    {
+        "id": "Specialisation_skill/crafting/playing-games_Gambling",
+        "skill": "skill/crafting/playing-games"
+    },
+    {
+        "id": "Specialisation_skill/crafting/playing-games_VideoGaming",
+        "skill": "skill/crafting/playing-games"
+    },
+    {
+        "id": "Specialisation_skill/crafting/programming_Hacking",
+        "skill": "skill/crafting/programming"
+    },
+    {
+        "id": "Specialisation_skill/crafting/programming_SoftwareEngineering",
+        "skill": "skill/crafting/programming"
+    },
+    {
+        "id": "Specialisation_Skill_Crafting_Writing_FictionalWriting",
+        "skill": "Skill_Crafting_Writing"
+    },
+    {
+        "id": "Specialisation_Skill_Crafting_Writing_JournalisticWriting",
+        "skill": "Skill_Crafting_Writing"
+    },
+    {
+        "id": "Specialisation_Skill_Crafting_Writing_ScientificWriting",
+        "skill": "Skill_Crafting_Writing"
+    }
+]

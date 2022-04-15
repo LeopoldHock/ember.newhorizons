@@ -1,0 +1,44 @@
+<div class="modal-inner modal-size-medium">
+    <div class="modal-inner-header modal-header-default">
+        <div class="modal-header-title-container">
+            <FaIcon @icon="align-left" class="modal-header-icon" />
+            <h4 class="modal-header-title">{{localize "modal/applog/title"}}</h4>
+        </div>
+        <button type="button" class="modal-button-close" {{on "click" this.modalService.hide}}>
+            <FaIcon @icon="xmark" />
+        </button>
+    </div>
+    <div class="modal-inner-content">
+        {{#each this.applog as |entry|}}
+        <div class="panel-inner border-color-{{entry.type}}">
+            <div class="v-box">
+                <div class="h-box">
+                    {{#if (eq entry.type this.messageService.messageType.i)}}
+                    <FaIcon @icon="info-circle" class="fg-text-default" />
+                    {{/if}}
+                    {{#if (eq entry.type this.messageService.messageType.s)}}
+                    <FaIcon @icon="check-circle" class="fg-success" />
+                    {{/if}}
+                    {{#if (eq entry.type this.messageService.messageType.w)}}
+                    <FaIcon @icon="exclamation-triangle" class="fg-warning" />
+                    {{/if}}
+                    {{#if (eq entry.type this.messageService.messageType.e)}}
+                    <FaIcon @icon="exclamation-circle" class="fg-error" />
+                    {{/if}}
+                    {{#if (eq entry.type this.messageService.messageType.x)}}
+                    <FaIcon @icon="bolt" class="fg-error" />
+                    {{/if}}
+                    <div class="margin-sides-tiny" />
+                    <h6 class="fg-grey-bright">{{entry.createdAt}} {{localize "modal/applog/utc"}}</h6>
+                </div>
+                <p>{{entry.text}}</p>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <div class="modal-inner-footer">
+        <button id="modal-button-footer-yes" type="submit" class="button" {{on "click" this.modalService.hide}}>
+            {{localize "misc/close"}}
+        </button>
+    </div>
+</div>

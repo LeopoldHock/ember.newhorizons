@@ -1,0 +1,12 @@
+<Layout::Panel @size="max" @alignment="center">
+    <Layout::PanelHeader @title={{localize "route/generator/origin/title" }}
+        @article="basic-rules/the-first-character/the-origin" />
+    <Interactable::Dropdown @size="huge" @items={{@model.origins}} @defaultItem={{@model.selectedOrigin}}
+        @onChangeListener={{this.onChangeOrigin}} @cycle={{true}} @disabled={{this.generator.originChosen}} />
+    <Misc::TutorialBox @title={{localize "route/generator/origin/tutorial-01/title" }}
+        @text={{localize "route/generator/origin/tutorial-01/text" }} @tracker={{this.generator}}
+        @tutorialId={{"origin/tutorial-01"}} />
+    <Stellarpedia::article @entry={{@model.selectedStellarpediaEntry}} @titleAlignment="center" />
+    <Interactable::button @label={{localize "Route_Generator_Origin_Submit" }} @size="large" @onClick={{this.onSubmit}}
+        @disabled={{this.generator.originChosen}} />
+</Layout::Panel>

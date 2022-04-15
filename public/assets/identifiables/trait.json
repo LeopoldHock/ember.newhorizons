@@ -1,0 +1,3463 @@
+[
+    {
+        "id": "trait/academic-education",
+        "costs": 5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "skill-category/knowledge",
+                "type": "available",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/knowledge",
+                "type": "total",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/knowledge",
+                "type": "min",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [
+            {
+                "id": "character/social-status",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "restrictions": [
+            {
+                "id": "trait/inability-for-skill-category",
+                "type": "",
+                "input": "skill-category/knowledge",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/addiction",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/annoying-voice",
+        "costs": -3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/euphony",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/arrogance",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/submissive",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/bad-regeneration",
+        "costs": -7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/quick-regeneration",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/bad-reputation",
+        "costs": -4,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/good-reputation",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/bad-trait",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/bitter",
+        "costs": -3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/joker",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/bloodthirsty",
+        "costs": -7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/pacifist",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/clumsy",
+        "costs": -10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/combat-training",
+        "costs": 7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "skill-category/combat",
+                "type": "available",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/combat",
+                "type": "total",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/combat",
+                "type": "min",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [
+            {
+                "id": "character/social-status",
+                "type": "",
+                "input": "",
+                "level": 2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "restrictions": [
+            {
+                "id": "trait/inability-for-skill-category",
+                "type": "",
+                "input": "skill-category/combat",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/competetive-sportsman",
+        "costs": 7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "skill-category/physical",
+                "type": "available",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/physical",
+                "type": "total",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/physical",
+                "type": "min",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/inability-for-skill-category",
+                "type": "",
+                "input": "skill-category/physical",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/obese",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/confrontational",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/prudent",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/connections",
+        "costs": 1,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 20,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/curious",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/debt",
+        "costs": -3,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 5,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/delusions",
+        "costs": -10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/prudent",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/imaginations",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/digital-immigrant",
+        "costs": -3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/digital-native",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/digital-native",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/digital-immigrant",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/egoist",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/helpful",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/loyale",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/enhanced-hearing",
+        "costs": 4,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/limited-hearing",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/enhanced-smelling",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/limited-smelling",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/enhanced-vision",
+        "costs": 5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/limited-vision",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/euphony",
+        "costs": 5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/speech-defect",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/annoying-voice",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/favored-by-faith",
+        "costs": 10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/food-restriction",
+        "costs": -2,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/forgetful",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/good-memory",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/good-memory",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/forgetful",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/good-reputation",
+        "costs": 4,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/bad-reputation",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/greedy",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/helpful",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/heavy-sleeper",
+        "costs": -3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/quick-sleeper",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/helpful",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/egoist",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/greedy",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/high-stamina",
+        "costs": 1,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 6,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/sp",
+                "type": "bonus",
+                "input": "",
+                "level": 1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/poor-stamina",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/high-vigour",
+        "costs": 2,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 6,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/lp",
+                "type": "bonus",
+                "input": "",
+                "level": 1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/poor-vigour",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/hoggish",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/homesick",
+        "costs": -10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/horny",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/imaginations",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/prudent",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/delusions",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/immunity",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/impulsive",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/prudent",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/inability-for-skill-category",
+        "costs": -99,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": true,
+        "selectedOption": {},
+        "options": [
+            {
+                "id": "skill-category/combat",
+                "changesCost": true,
+                "value": "<constant/skills-default-factor-combat.value> * <constant/traits-inability-bonus-multiplier.value>",
+                "restrictions": [
+                    {
+                        "id": "trait/combat-training",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": []
+            },
+            {
+                "id": "skill-category/physical",
+                "changesCost": true,
+                "value": "<constant/skills-default-factor-physical.value> * <constant/traits-inability-bonus-multiplier.value>",
+                "restrictions": [
+                    {
+                        "id": "trait/competetive-sportsman",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": []
+            },
+            {
+                "id": "skill-category/crafting",
+                "changesCost": true,
+                "value": "<constant/skills-default-factor-crafting.value> * <constant/traits-inability-bonus-multiplier.value>",
+                "restrictions": [
+                    {
+                        "id": "trait/job-training",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": []
+            },
+            {
+                "id": "skill-category/vehicles",
+                "changesCost": true,
+                "value": "<constant/skills-default-factor-vehicles.value> * <constant/traits-inability-bonus-multiplier.value>",
+                "restrictions": [
+                    {
+                        "id": "trait/pilot-training",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": []
+            },
+            {
+                "id": "skill-category/social",
+                "changesCost": true,
+                "value": "<constant/skills-default-factor-social.value> * <constant/traits-inability-bonus-multiplier.value>",
+                "restrictions": [
+                    {
+                        "id": "trait/social-nature",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": []
+            },
+            {
+                "id": "skill-category/knowledge",
+                "changesCost": true,
+                "value": "<constant/skills-default-factor-knowledge.value> * <constant/traits-inability-bonus-multiplier.value>",
+                "restrictions": [
+                    {
+                        "id": "trait/academic-education",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": []
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/insomnia",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/jinx",
+        "costs": -12,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/job-training",
+        "costs": 7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "skill-category/crafting",
+                "type": "available",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/crafting",
+                "type": "total",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/crafting",
+                "type": "min",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [
+            {
+                "id": "character/social-status",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "restrictions": [
+            {
+                "id": "trait/inability-for-skill-category",
+                "type": "",
+                "input": "skill-category/crafting",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/joker",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/bitter",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/jump-start",
+        "costs": 1,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 10,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/limited-hearing",
+        "costs": -4,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/enhanced-hearing",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/limited-smelling",
+        "costs": -3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/enhanced-smelling",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/limited-vision",
+        "costs": -7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/enhanced-vision",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/loyale",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/egoist",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/lucky-at-cards",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/miserable-attribute",
+        "costs": -12,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": true,
+        "selectedOption": {},
+        "options": [
+            {
+                "id": "pri-a/cr",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/cr",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/cr",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/cr",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/cl",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/cl",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/cl",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/cl",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/in",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/in",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/in",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/in",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/ch",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/ch",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/ch",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/ch",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/ag",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/ag",
+                        "level": 0
+                    },
+                    {
+                        "id": "trait/obese",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/ag",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/ag",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/dx",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/dx",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/dx",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/dx",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/cn",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/cn",
+                        "level": 0
+                    },
+                    {
+                        "id": "trait/obese",
+                        "input": "",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/cn",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/cn",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/st",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/outstanding-attribute",
+                        "input": "pri-a/st",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/st",
+                        "type": "min",
+                        "input": "",
+                        "level": -1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/st",
+                        "type": "max",
+                        "input": "",
+                        "level": -7,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/outstanding-attribute",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/nemesis",
+        "costs": -1,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 10,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/nimble",
+        "costs": 10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/re",
+                "type": "bonus",
+                "input": "",
+                "level": 1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "sec-a/ve",
+                "type": "bonus",
+                "input": "",
+                "level": 1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/slowpoke",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/obese",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/obese",
+        "costs": -15,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "pri-a/ag",
+                "type": "max",
+                "level": -2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/cn",
+                "type": "max",
+                "level": -2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "sec-a/re",
+                "type": "bonus",
+                "level": -2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "sec-a/ve",
+                "type": "bonus",
+                "level": -4,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/nimble",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/competetive-sportsman",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/miserable-attribute",
+                "type": "",
+                "input": "pri-a/ag",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/miserable-attribute",
+                "type": "",
+                "input": "pri-a/cn",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/obligations",
+        "costs": -12,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/outdoorsy",
+        "costs": -7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/outstanding-attribute",
+        "costs": 10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": true,
+        "selectedOption": {},
+        "options": [
+            {
+                "id": "pri-a/cr",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/cr",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/cr",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/cr",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/cl",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/cl",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/cl",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/cl",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/in",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/in",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/in",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/in",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/ch",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/ch",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/ch",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/ch",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/ag",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/ag",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/ag",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/ag",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/dx",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/dx",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/dx",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/dx",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/cn",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/cn",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/cn",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/cn",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            },
+            {
+                "id": "pri-a/st",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [
+                    {
+                        "id": "trait/miserable-attribute",
+                        "input": "pri-a/st",
+                        "level": 0
+                    }
+                ],
+                "targets": [
+                    {
+                        "id": "pri-a/st",
+                        "type": "min",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    },
+                    {
+                        "id": "pri-a/st",
+                        "type": "max",
+                        "input": "",
+                        "level": 1,
+                        "overrideCurrent": false,
+                        "oldLevel": 0
+                    }
+                ]
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/miserable-attribute",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/pacifist",
+        "costs": -10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/bloodthirsty",
+                "input": "",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/pet-pal",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/phobia",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/pilot-training",
+        "costs": 7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "skill-category/vehicles",
+                "type": "available",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/vehicles",
+                "type": "total",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/vehicles",
+                "type": "min",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [
+            {
+                "id": "character/social-status",
+                "input": "",
+                "level": 4
+            }
+        ],
+        "restrictions": [
+            {
+                "id": "trait/inability-for-skill-category",
+                "input": "skill-category/vehicles",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/poor-stamina",
+        "costs": -1,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 6,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/sp",
+                "type": "bonus",
+                "level": -1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/high-stamina",
+                "type": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/poor-vigour",
+        "costs": -2,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 6,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/lp",
+                "type": "bonus",
+                "level": -1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/high-vigour",
+                "type": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/prejudices",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/pretty",
+        "costs": 5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/unsightly",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/prudent",
+        "costs": 5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/impulsive",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/imaginations",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/confrontational",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/delusions",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/quick-regeneration",
+        "costs": 7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/bad-regeneration",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/quick-sleeper",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/heavy-sleeper",
+                "type": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/robust-circulation",
+        "costs": 5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/self-talker",
+        "costs": -3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/sense-of-direction",
+        "costs": 3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/sense-of-justice",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/sense-of-time",
+        "costs": 2,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/sensitive-to-implants",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/sickly",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/tough-dog",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/simplehearted",
+        "costs": -6,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/sleepwalker",
+        "costs": -3,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/slowpoke",
+        "costs": -7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/re",
+                "type": "bonus",
+                "input": "",
+                "level": -1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "sec-a/ve",
+                "type": "bonus",
+                "input": "",
+                "level": -1,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/nimble",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "Trait_Small",
+        "costs": -7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "pri-a/st",
+                "type": "max",
+                "level": -2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "sec-a/ve",
+                "type": "bonus",
+                "level": -2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/social-nature",
+        "costs": 7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "skill-category/social",
+                "type": "available",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/social",
+                "type": "total",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill-category/social",
+                "type": "min",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/inability-for-skill-category",
+                "input": "skill-category/social",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/special-possession",
+        "costs": 5,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 5,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/speech-defect",
+        "costs": -10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/euphony",
+                "input": "",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/spoiled",
+        "costs": -6,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/stench",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/submissive",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/arrogance",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/talent-for-skill",
+        "costs": 99,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": true,
+        "selectedOption": {},
+        "options": [
+            {
+                "id": "skill/combat/energy-weapons",
+                "changesCost": true,
+                "value": "<skill/combat/energy-weapons.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/combat/heavy-weapons",
+                "changesCost": true,
+                "value": "<skill/combat/heavy-weapons.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/combat/melee-hands",
+                "changesCost": true,
+                "value": "<skill/combat/melee-hands.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/combat/melee-weapons",
+                "changesCost": true,
+                "value": "<skill/combat/melee-weapons.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/combat/onboard-weapons",
+                "changesCost": true,
+                "value": "<skill/combat/onboard-weapons.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/combat/pistols",
+                "changesCost": true,
+                "value": "<skill/combat/pistols.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/combat/rifles",
+                "changesCost": true,
+                "value": "<skill/combat/rifles.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/combat/throwing",
+                "changesCost": true,
+                "value": "<skill/combat/throwing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/animal-training",
+                "changesCost": true,
+                "value": "<skill/crafting/animal-training.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/computers",
+                "changesCost": true,
+                "value": "<skill/crafting/computers.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/cooking",
+                "changesCost": true,
+                "value": "<skill/crafting/cooking.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/disguising",
+                "changesCost": true,
+                "value": "<skill/crafting/disguising.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/drawing",
+                "changesCost": true,
+                "value": "<skill/crafting/drawing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/electrical-engineering",
+                "changesCost": true,
+                "value": "<skill/crafting/electrical-engineering.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/explosives",
+                "changesCost": true,
+                "value": "<skill/crafting/explosives.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/making-music",
+                "changesCost": true,
+                "value": "<skill/crafting/making-music.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/material-processing",
+                "changesCost": true,
+                "value": "<skill/crafting/material-processing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/mechanical-engineering",
+                "changesCost": true,
+                "value": "<skill/crafting/mechanical-engineering.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/medical-care",
+                "changesCost": true,
+                "value": "<skill/crafting/medical-care.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/pharmaceutics",
+                "changesCost": true,
+                "value": "<skill/crafting/pharmaceutics.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/playing-games",
+                "changesCost": true,
+                "value": "<skill/crafting/playing-games.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/crafting/programming",
+                "changesCost": true,
+                "value": "<skill/crafting/programming.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "Skill_Crafting_Writing",
+                "changesCost": true,
+                "value": "<Skill_Crafting_Writing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/art",
+                "changesCost": true,
+                "value": "<skill/knowledge/art.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/astronomy",
+                "changesCost": true,
+                "value": "<skill/knowledge/astronomy.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/biology-and-medicine",
+                "changesCost": true,
+                "value": "<skill/knowledge/biology-and-medicine.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/chemistry",
+                "changesCost": true,
+                "value": "<skill/knowledge/chemistry.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/electronics",
+                "changesCost": true,
+                "value": "<skill/knowledge/electronics.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/gaming",
+                "changesCost": true,
+                "value": "<skill/knowledge/gaming.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/general-knowledge",
+                "changesCost": true,
+                "value": "<skill/knowledge/general-knowledge.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/geology",
+                "changesCost": true,
+                "value": "<skill/knowledge/geology.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/history",
+                "changesCost": true,
+                "value": "<skill/knowledge/history.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "changesCost": true,
+                "value": "<skill/knowledge/informatics.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/law",
+                "changesCost": true,
+                "value": "<skill/knowledge/law.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/mathematics-and-economy",
+                "changesCost": true,
+                "value": "<skill/knowledge/mathematics-and-economy.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/music",
+                "changesCost": true,
+                "value": "<skill/knowledge/music.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/orientation",
+                "changesCost": true,
+                "value": "<skill/knowledge/orientation.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/physics-and-mechanics",
+                "changesCost": true,
+                "value": "<skill/knowledge/physics-and-mechanics.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/spaceflight",
+                "changesCost": true,
+                "value": "<skill/knowledge/spaceflight.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/survival",
+                "changesCost": true,
+                "value": "<skill/knowledge/survival.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "changesCost": true,
+                "value": "<skill/knowledge/tactics-and-strategy.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/body-control",
+                "changesCost": true,
+                "value": "<skill/physical/body-control.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/climbing",
+                "changesCost": true,
+                "value": "<skill/physical/climbing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/dancing",
+                "changesCost": true,
+                "value": "<skill/physical/dancing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/diving",
+                "changesCost": true,
+                "value": "<skill/physical/diving.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/imitating-voices",
+                "changesCost": true,
+                "value": "<skill/physical/imitating-voices.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/inebriating",
+                "changesCost": true,
+                "value": "<skill/physical/inebriating.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/perception",
+                "changesCost": true,
+                "value": "<skill/physical/perception.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/running",
+                "changesCost": true,
+                "value": "<skill/physical/running.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/singing",
+                "changesCost": true,
+                "value": "<skill/physical/singing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/sneaking-hiding",
+                "changesCost": true,
+                "value": "<skill/physical/sneaking-hiding.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/stealing",
+                "changesCost": true,
+                "value": "<skill/physical/stealing.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/swimming",
+                "changesCost": true,
+                "value": "<skill/physical/swimming.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/physical/acting",
+                "changesCost": true,
+                "value": "<skill/physical/acting.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/flirting",
+                "changesCost": true,
+                "value": "<skill/social/flirting.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/inspiring",
+                "changesCost": true,
+                "value": "<skill/social/inspiring.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/intimidating",
+                "changesCost": true,
+                "value": "<skill/social/intimidating.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/judgement",
+                "changesCost": true,
+                "value": "<skill/social/judgement.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/reasoning",
+                "changesCost": true,
+                "value": "<skill/social/reasoning.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/self-control",
+                "changesCost": true,
+                "value": "<skill/social/self-control.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/soft-skills",
+                "changesCost": true,
+                "value": "<skill/social/soft-skills.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/teaching",
+                "changesCost": true,
+                "value": "<skill/social/teaching.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/social/trading",
+                "changesCost": true,
+                "value": "<skill/social/trading.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/vehicles/extraplanetary-flying",
+                "changesCost": true,
+                "value": "<skill/vehicles/extraplanetary-flying.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/vehicles/intraplanetary-flying",
+                "changesCost": true,
+                "value": "<skill/vehicles/intraplanetary-flying.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/vehicles/land-vehicles",
+                "changesCost": true,
+                "value": "<skill/vehicles/land-vehicles.factor>",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "skill/vehicles/water-vehicles",
+                "changesCost": true,
+                "value": "<skill/vehicles/water-vehicles.factor>",
+                "restrictions": [],
+                "targets": []
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/technical-dummie",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/tinkerer",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/tinkerer",
+        "costs": 5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/technical-dummie",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/tough-dog",
+        "costs": 10,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/wt",
+                "type": "bonus",
+                "input": "",
+                "level": 2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/wimp",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "trait/sickly",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/unsightly",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/pretty",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    },
+    {
+        "id": "trait/vanity",
+        "costs": -5,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/wanted",
+        "costs": -5,
+        "hasLevel": true,
+        "level": 0,
+        "minLevel": 1,
+        "maxLevel": 3,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": true,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/weather-resistant",
+        "costs": 7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [],
+        "requirements": [],
+        "restrictions": []
+    },
+    {
+        "id": "trait/wimp",
+        "costs": -7,
+        "hasLevel": false,
+        "level": 0,
+        "minLevel": 0,
+        "maxLevel": 0,
+        "hasOptions": false,
+        "selectedOption": {},
+        "options": [],
+        "needsInput": false,
+        "input": "",
+        "targets": [
+            {
+                "id": "sec-a/wt",
+                "type": "bonus",
+                "input": "",
+                "level": -2,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "requirements": [],
+        "restrictions": [
+            {
+                "id": "trait/tough-dog",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ]
+    }
+]

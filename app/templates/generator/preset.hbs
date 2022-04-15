@@ -1,0 +1,44 @@
+<Layout::Panel @size="small" @alignment="center">
+    <Layout::PanelHeader @title={{localize "route/generator/preset/title" }}
+        @article="basic-rules/the-first-character/generator-presets" />
+    <form {{on "submit" this.onSubmit}}>
+        <Interactable::Dropdown @label={{localize "route/generator/preset/preset" }} @size="large"
+            @items={{@model.characterPresets}} @onChangeListener={{this.onChangePreset}} />
+        <Misc::TutorialBox @title={{localize "route/generator/preset/tutorial-01/title" }}
+            @text={{localize "route/generator/preset/tutorial-01/text" }} @tracker={{this.generator}}
+            @tutorialId={{"preset/tutorial-01"}} />
+        <Interactable::Toggle @label={{localize "Route/generator/preset/show-tutorials" }}
+            @changeset={{this.generatorSettingsChangeset}} @key="showTutorials"
+            @onChangeListener={{this.onTutorialsToggle}} />
+        <Interactable::Toggle @label={{localize "route/generator/preset/custom" }} @changeset={{this.changeset}}
+            @key="isCustom" @onChangeListener={{this.onCustomToggle}} />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/gp-bonus" }} @size="small"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="gpBonus" @pattern={{this.manager.pattern.numeric}} @maxLength="2" />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/min-traits" }} @size="small"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="traitsMin" @pattern={{this.manager.pattern.numeric}} @maxLength="2" />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/max-traits" }} @size="small"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="traitsMax" @pattern={{this.manager.pattern.numeric}} @maxLength="2" />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/max-abilities" }} @size="small"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="abilitiesMax" @pattern={{this.manager.pattern.numeric}}
+            @maxLength="2" />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/available-ip" }} @size="small"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="ipAvailable" @pattern={{this.manager.pattern.numeric}} @maxLength="3" />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/start-ep" }} @size="medium"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="epStart" @pattern={{this.manager.pattern.numeric}} @maxLength="5" />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/start-money" }} @size="medium"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="crStart" @pattern={{this.manager.pattern.numeric}} @maxLength="9" />
+        <Interactable::Inputfield @label={{localize "route/generator/preset/start-fp" }} @size="small"
+            @textPosition="right" @required={{true}} @disabled={{unless this.changeset.isCustom true}}
+            @changeset={{this.changeset}} @key="fpStart" @pattern={{this.manager.pattern.numeric}} @maxLength="1" />
+        <div class="spacer" />
+        <Interactable::button @type="submit" @label={{localize "Route/generator/preset/start" }}
+            class="interactable-size-large margin-horizontal-auto" />
+    </form>
+</Layout::Panel>

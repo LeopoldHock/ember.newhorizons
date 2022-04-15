@@ -1,0 +1,16 @@
+{{#each @entry.elements as |element|}}
+{{#if (eq (stellarpedia/sp-get-element-type element) "hdr")}}
+<h2 class="text-{{@titleAlignment}}">{{stellarpedia/sp-prepare element true}}</h2>
+<div class="separator" />
+{{else if (eq (stellarpedia/sp-get-element-type element) "spt")}}
+<div class="separator" />
+{{else if (eq (stellarpedia/sp-get-element-type element) "spc")}}
+<div class="spacer" />
+{{else if (eq (stellarpedia/sp-get-element-type element) "txt")}}
+<Stellarpedia::Text @text={{stellarpedia/sp-prepare element}} />
+{{else if (eq (stellarpedia/sp-get-element-type element) "img")}}
+<Stellarpedia::Image @rawInput={{element}} />
+{{else if (eq (stellarpedia/sp-get-element-type element) "row")}}
+<Stellarpedia::Row @rawInput={{element}} />
+{{/if}}
+{{/each}}

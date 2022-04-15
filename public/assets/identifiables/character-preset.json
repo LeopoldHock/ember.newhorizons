@@ -1,0 +1,26 @@
+[
+    {
+        "id": "character-preset/default",
+        "gpBonus": 0,
+        "apAvailable": 32,
+        "traitsMin": 5,
+        "traitsMax": 15,
+        "abilitiesMax": 4,
+        "ipAvailable": 100,
+        "epStart": 0,
+        "crStart": 0,
+        "fpStart": 1
+    },
+    {
+        "id": "character-preset/hero",
+        "gpBonus": 10,
+        "apAvailable": 35,
+        "traitsMin": 5,
+        "traitsMax": 15,
+        "abilitiesMax": 6,
+        "ipAvailable": 100,
+        "epStart": 0,
+        "crStart": 0,
+        "fpStart": 2
+    }
+]

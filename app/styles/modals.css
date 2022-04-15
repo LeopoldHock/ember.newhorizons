@@ -1,0 +1,160 @@
+/*
+Leopold Hock | 319.09.220
+Description: Contains style information for modals and their components.
+*/
+
+#modal-container {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    z-index: 25;
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorScreenBlocker);
+}
+
+#modal-container>.ember-view {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-inner {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    z-index: 26;
+    background-color: var(--colorPanelBackground);
+    border-radius: 5px;
+    width: 500px;
+    max-width: 90%;
+    max-height: 75%;
+}
+
+.modal-size-medium {
+    width: 600px;
+}
+
+.modal-inner-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    background-color: var(--colorModalHeaderDefault);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.modal-header-title-container {
+    display: flex;
+    justify-content: start;
+}
+
+.modal-header-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.modal-header-default {
+    background-color: var(--colorModalHeaderDefault);
+}
+
+.modal-header-warning {
+    background-color: var(--colorModalHeaderWarning);
+}
+
+.modal-header-error {
+    background-color: var(--colorModalHeaderError);
+}
+
+.modal-header-success {
+    background-color: var(--colorModalHeaderSuccess);
+}
+
+.modal-header-icon {
+    font-size: x-large;
+    margin: auto;
+    color: white;
+    padding-right: 5px;
+}
+
+.modal-inner-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.modal-inner-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    min-height: 50px;
+    background-color: var(--colorModalFooter);
+    border-top: 1px solid var(--colorPanelBorder);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+
+.modal-inner-footer button {
+    min-width: 60px;
+    margin-left: 5px;
+}
+
+.modal-button-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: x-large;
+}
+
+.notification {
+    min-width: 300px;
+    max-width: 300px;
+    border-radius: 5px !important;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Raleway;
+}
+
+.notification .c-notification__icon, .c-notification__close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.notification .c-notification__countdown {
+    background-color: white !important;
+    opacity: 0.3;
+}
+
+.notification-information, .notification-information *:not(.c-notification__countdown) {
+    background-color: var(--colorModalHeaderDefault) !important;
+}
+
+.notification-success, .notification-success *:not(.c-notification__countdown) {
+    background-color: var(--colorModalHeaderSuccess) !important;
+}
+
+.notification-warning, .notification-warning *:not(.c-notification__countdown) {
+    background-color: var(--colorModalHeaderWarning) !important;
+}
+
+.notification-error, .notification-error *:not(.c-notification__countdown), .notification-exception, .notification-exception *:not(.c-notification__countdown) {
+    background-color: var(--colorModalHeaderError) !important;
+}

@@ -1,0 +1,9 @@
+<button id="sidebar-button-{{@book.id}}+{{@chapter.id}}" type="button" class="sidebar-collapsible" {{on "click" (fn
+    this.onClick @book.id)}}>
+    <FaIcon @icon="bookmark" class="margin-sides-medium fg-teal-neon" />
+    <p class="margin-vertical-auto">{{@chapter.header}}</p>
+</button>
+<div id="sidebar-button-{{@book.id}}+{{@chapter.id}}-content"
+    class="sidebar-collapsible-content {{if this.expanded 'sidebar-collapsible-content-expanded' }}">
+    {{yield}}
+</div>

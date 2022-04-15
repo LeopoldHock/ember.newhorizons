@@ -1,0 +1,10 @@
+[
+    {
+        "id": "ability/general/mid-hacking",
+        "baseSkill": "skill/knowledge/informatics"
+    },
+    {
+        "id": "ability/general/vti-commanding",
+        "baseSkill": "skill/knowledge/tactics-and-strategy"
+    }
+]

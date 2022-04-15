@@ -1,0 +1,182 @@
+/*  Leopold Hock | 30.04.2020
+Description: Contains style information for all text elements.  */
+:root {
+    --colorTextDefault: #f1f1f1;
+    --colorTextHighlight: #ffffff;
+    --colorTextLink: #64C8C8;
+    --colorTextLinkHover: #00FFFF;
+    --colorTextSubtitle: #c1c1c1;
+}
+
+/*For Mobile Display only*/
+
+@media (max-width: 600px) {
+    h1, .h1 {
+        font-size: 30px;
+    }
+
+    h2, .h2 {
+        font-size: 25px;
+    }
+
+    h3, .h3 {
+        font-size: 20px;
+    }
+
+    h4, .h4 {
+        font-size: 16px;
+    }
+
+    h5, .h5 {
+        font-size: 16px;
+    }
+
+    h6, .h6, p, .th, th, .td, td, .inputfield {
+        font-size: 14px;
+    }
+}
+
+/*For Desktop Display only*/
+
+@media (min-width: 601px) {
+    h1, .h1 {
+        font-size: 45px;
+    }
+
+    h2, .h2 {
+        font-size: 30px;
+    }
+
+    h3, .h3 {
+        font-size: 25px;
+    }
+
+    h4, .h4 {
+        font-size: 20px;
+    }
+
+    h5, .h5 {
+        font-size: 16px;
+    }
+
+    h6, .h6, p, th, .th, td, .td, .inputfield {
+        font-size: 15px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 5px;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, th, .th {
+    margin-top: 0;
+    color: var(--colorTextHighlight);
+    font-family: ARJulian;
+}
+
+h5, .h5, h6, .h6, th, .th {
+    font-family: Raleway;
+}
+
+th, th button {
+    font-weight: 600;
+}
+
+p, td, .td {
+    font-family: Raleway;
+    color: var(--colorTextDefault);
+    margin: 5px 0 5px 0;
+}
+
+a, a:link, a:visited, .button-link {
+    color: var(--colorTextLink);
+    transition: 200ms;
+    text-decoration: none;
+}
+
+a:hover, a:active, .button-link:hover, .button-link:active {
+    color: var(--colorTextLinkHover);
+    text-decoration: none;
+}
+
+.button-link {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.separator {
+    height: 1px;
+    width: 100%;
+    margin: 5px auto 5px auto;
+    background-color: var(--colorTealNeon);
+}
+
+.highlighted {
+    color: var(--colorTextHighlight);
+    text-shadow: 0 0 1px #fff;
+}
+
+.no-text-shadow {
+    text-shadow: none;
+}
+
+.stellarpedia-status-text {
+    margin-left: 10px;
+    font-size: 12px;
+    color: var(--colorTealDark);
+    font-style: italic;
+}
+
+.stellarpedia-detail-text {
+    color: var(--colorTextSubtitle);
+}
+
+.stellarpedia-image-subtitle {
+    color: var(--colorTextSubtitle);
+    font-style: italic;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.interactable-subtitle {
+    width: 0;
+    min-width: 100%;
+    color: var(--colorTextSubtitle);
+    font-style: italic;
+    text-align: left;
+    font-size: 12px;
+}
+
+.text-left * {
+    text-align: left !important;
+}
+
+.text-center * {
+    text-align: center !important;
+}
+
+.text-right * {
+    text-align: right !important;
+}
+
+.text-area-height-small {
+    height: 68px;
+}
+
+.text-area-height-medium {
+    height: 112px;
+}
+
+.text-area-height-large {
+    height: 154px;
+}
+
+.required-mark {
+    color: var(--colorTextLinkHover);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+}

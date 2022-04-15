@@ -1,0 +1,14 @@
+[
+    {
+        "id": "ability-category/general"
+    },
+    {
+        "id": "ability-category/melee"
+    },
+    {
+        "id": "ability-category/ranged"
+    },
+    {
+        "id": "ability-category/vehicles"
+    }
+]

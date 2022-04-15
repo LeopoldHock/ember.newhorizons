@@ -1,0 +1,10 @@
+<Layout::Panel @size="large" @alignment="center">
+    <div class="full-width">
+        <Layout::PanelHeader @title={{localize "route/generator/apps/title" }}
+            @article="basic-rules/the-first-character/apps" />
+        {{#if @model.showNoApps}}
+        <p>{{localize "route/generator/apps/no-apps"}}</p>
+        {{else}}
+        {{/if}}
+    </div>
+</Layout::Panel>

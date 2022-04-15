@@ -1,0 +1,37 @@
+<Layout::Panel @size="medium">
+    <Layout::PanelHeader @title={{localize "route/generator/attributes/primary-attributes" }}
+        @article="basic-rules/the-first-character/primary-and-secondary-attributes" />
+    <form class="container" aria-label="primary attributes">
+        <h5>{{localize "route/generator/attributes/ap-available"}}: {{this.generator.apAvailable}}</h5>
+        <div class="row full-width justify-content-center align-items-start">
+            {{#each @model.primaryAttributes as |primaryAttribute|}}
+            <div class="col-md">
+                <Interactable::ValueControl @object={{primaryAttribute}} @key="current"
+                    @value={{primaryAttribute.current}} @label={{localize (concat primaryAttribute.id '' ) }}
+                    @labelSize="medium" @alignment="space-between" @onChangeListener={{this.onChange}}
+                    @min={{primaryAttribute.min}} @max={{primaryAttribute.max}}
+                    @info="basic-rules/supplement-primary-attributes/{{primaryAttribute.id}}"
+                    @budget={{this.generator.apAvailable}} />
+            </div>
+            {{/each}}
+        </div>
+    </form>
+</Layout::Panel>
+<Layout::Panel @size="medium">
+    <Layout::PanelHeader @title={{localize "route/generator/attributes/secondary-attributes" }}
+        @article="basic-rules/the-first-character/primary-and-secondary-attributes" />
+    <form class="container" aria-label="secondary attributes">
+        <div class="row full-width justify-content-center align-items-start">
+            {{#each @model.secondaryAttributes as |secondaryAttribute|}}
+            <div class="col-md">
+                <Interactable::ValueControl @object={{secondaryAttribute}} @key="current"
+                    @value="{{if (lt (add secondaryAttribute.current secondaryAttribute.bonus) 1) '1' (add secondaryAttribute.current secondaryAttribute.bonus)}}"
+                    @label={{localize (concat secondaryAttribute.id '' ) }} @labelSize="medium"
+                    @alignment="space-between" @onChangeListener={{this.onChange}}
+                    @info="basic-rules/supplement-secondary-attributes/{{secondaryAttribute.id}}"
+                    @showButtons={{false}} />
+            </div>
+            {{/each}}
+        </div>
+    </form>
+</Layout::Panel>

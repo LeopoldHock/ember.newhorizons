@@ -1,0 +1,63 @@
+<table class="table">
+    <thead>
+        <tr class="sticky-header">
+            <th />
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/skills/column/skill" }}
+                    @sort={{this.sortByProperty}} @sortingKey="localizedLabel" />
+            </th>
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/skills/column/factor" }} />
+            </th>
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/skills/column/constraint" }} />
+            </th>
+            {{#if @isOwned}}
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/skills/column/level" }} />
+            </th>
+            {{/if}}
+            <th>
+                <List::ColumnHeader @label={{localize (if
+                    this.isGenerator "component/list/skills/column/costs-ip" "component/list/skills/column/costs-ep" )
+                    }} />
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each this.rows as |row| }}
+        <tr>
+            <td class="flex">
+                <Interactable::ButtonInfo class="float-left" @article="basic-rules/supplement-skills/{{row.data.id}}" />
+                {{#if @isOwned}}
+                {{#unless row.data.hideRemoveButton}}
+                <Interactable::ButtonSquare class="float-left" @icon="minus" @onClick={{fn this.onRemoveClick row }}
+                    @disabled={{row.data.disableRemoveButton}} />
+                {{/unless}}
+                {{else}}
+                <Interactable::ButtonSquare class="float-left" @icon="plus" @onClick={{fn this.onAddClick row}} />
+                {{/if}}
+            </td>
+            <td class="vertical-align-middle">
+                <p class="{{if row.data.isBasic 'highlighted'}}">{{row.localizedLabel}}</p>
+            </td>
+            <td>
+                {{row.data.factor}}
+            </td>
+            <td>
+                {{row.data.constraint}}
+            </td>
+            {{#if @isOwned}}
+            <td>
+                <Interactable::ValueControl @object={{row.data}} @value={{row.data.current}} @min={{row.data.min}}
+                    @max={{row.data.max}} @onChangeListener={{this.onLevelChange}} @disabled={{if this.isOwned false
+                    true}} @budget={{@budget}} />
+            </td>
+            {{/if}}
+            <td class="text-right margin-sides-smaller">
+                {{identifiables/skill-costs row.data @isOwned @isGenerator}}
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

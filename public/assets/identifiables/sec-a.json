@@ -1,0 +1,72 @@
+[
+    {
+        "id": "sec-a/lp",
+        "current": 0,
+        "remaining": 0,
+        "bonus": 0,
+        "primaryAttributes": [
+            "pri-a/cn",
+            "pri-a/cn"
+        ],
+        "div": 1.0
+    },
+    {
+        "id": "sec-a/sp",
+        "current": 0,
+        "remaining": 0,
+        "bonus": 0,
+        "primaryAttributes": [
+            "pri-a/cn",
+            "pri-a/cn",
+            "pri-a/ag"
+        ],
+        "div": 2.0
+    },
+    {
+        "id": "sec-a/re",
+        "current": 0,
+        "remaining": 0,
+        "bonus": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/ag"
+        ],
+        "div": 5.0
+    },
+    {
+        "id": "sec-a/de",
+        "current": 0,
+        "remaining": 0,
+        "bonus": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/ag",
+            "pri-a/ag"
+        ],
+        "div": 5.0
+    },
+    {
+        "id": "sec-a/ve",
+        "current": 0,
+        "remaining": 0,
+        "bonus": 0,
+        "primaryAttributes": [
+            "pri-a/ag",
+            "pri-a/ag",
+            "pri-a/cn"
+        ],
+        "div": 6.0
+    },
+    {
+        "id": "sec-a/wt",
+        "current": 0,
+        "remaining": 0,
+        "bonus": 0,
+        "primaryAttributes": [
+            "pri-a/cn"
+        ],
+        "div": 2.0
+    }
+]

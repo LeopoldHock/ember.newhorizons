@@ -1,0 +1,21 @@
+<div class="modal-inner">
+    <div class="modal-inner-header modal-header-default">
+        <div class="modal-header-title-container">
+            <FaIcon @icon="share" class="modal-header-icon" />
+            <h4 class="modal-header-title">{{localize "modal/stellarpedia/share/title"}}</h4>
+        </div>
+        <button type="button" class="modal-button-close" {{on "click" this.modalService.hide}}>
+            <FaIcon @icon="xmark" />
+        </button>
+    </div>
+    <div class="modal-inner-content">
+        <p>{{localize "modal/stellarpedia/share/text"}}</p>
+        <Interactable::Inputfield @changeset={{this.changeset}} @key="url" @disabled={{true}} />
+    </div>
+
+    <div class="modal-inner-footer">
+        <button id="modal-button-footer-yes" type="submit" class="button" {{on "click" this.onCopy}}>
+            {{localize "modal/stellarpedia/share/copy-link"}}
+        </button>
+    </div>
+</div>

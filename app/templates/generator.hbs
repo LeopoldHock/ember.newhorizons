@@ -1,0 +1,11 @@
+<Portal @target="sidebar-left">
+    <Sidebar::Left::Generator />
+</Portal>
+
+{{#if this.generator.originChosen}}
+<div class="container justify-content-center">
+    <Misc::Title @titleStyle="h1" @text={{if (is-empty @model.character.data.general.name)
+        (localize "route/generator/new-character" ) @model.character.data.general.name}} @textPosition="center" />
+</div>
+{{/if}}
+{{outlet}}

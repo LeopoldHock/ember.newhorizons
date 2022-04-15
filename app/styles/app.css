@@ -1,0 +1,107 @@
+@font-face {
+    font-family: ARJulian;
+    src: url("/assets/fonts/ARJULIAN.ttf");
+}
+
+:root {
+    vertical-align: middle;
+    --desktopMinMidth: 768px;
+    --colorDeepSpace: #0e1015;
+    --colorGreyBright: #c1c1c1;
+    --colorGreyMedium: #5F5F5F;
+    --colorGreyDark: #2c2c2c;
+    --colorGreyDarker: #252525;
+    --colorTealNeon: #00FFFF;
+    --colorTealBright: #64C8C8;
+    --colorTealDark: #498082;
+    --colorTealDarker: #416668;
+    --colorTealTrans: rgba(100, 200, 200, 0.5);
+    --colorGreenBright: #00FF00;
+    --colorScreenBlocker: rgba(0, 0, 0, 0.75);
+    --colorModalFooter: rgba(0, 0, 0, 0);
+    --brandingBarHeight: 2px;
+    --headerToolbarHeight: 40px;
+    /*INTERACTABLES*/
+    --colorActive: #498082;
+    --colorDisabled: #494949;
+    /*MISCELLANEOUS*/
+    --colorModalHeaderDefault: #498082;
+    --colorModalHeaderWarning: #c89832;
+    --colorModalHeaderError: #c83232;
+    --colorModalHeaderSuccess: #21922b;
+    --colorWarning: #c89832;
+    --colorError: #c83232;
+    --colorSuccess: #21922b;
+    --backgroundColor1: #0e1015;
+    --backgroundColor2: #0e1015;
+    --backgroundColor3: #0c1f1f;
+}
+
+html {
+    height: 100%
+}
+
+.ember-application {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: var(--colorTextDefault);
+}
+
+.ember-view {
+    max-width: 100%;
+}
+
+#outerPageContainer {
+    display: flex;
+}
+
+#pageOutletContainer {
+    height: calc(100% - (var(--headerToolbarHeight) + var(--brandingBarHeight)));
+    overflow-y: auto;
+    margin-left: 0;
+    margin-right: 0;
+    transition: 500ms;
+}
+
+#pageOutlet {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    z-index: 5;
+    padding: 10px 20px 20px 20px;
+    overflow: hidden;
+}
+
+.screen-blocker {
+    background-color: var(--colorDisabled);
+}
+
+.invisible {
+    display: none;
+}
+
+.password-sec-level-bar {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 3px;
+    width: 50px;
+    background-color: var(--colorGreyMedium);
+    border-radius: 2px;
+    border: none;
+    transition: 150ms;
+}
+
+#loading-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    background-color: var(--colorScreenBlocker);
+    justify-content: center;
+    align-items: center;
+}

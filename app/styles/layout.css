@@ -1,0 +1,332 @@
+/*  Leopold Hock | 30.04.2020   */
+
+/*  Description: Contains style information for all layouting.  */
+
+.flex {
+    display: flex;
+}
+
+.margin-none {
+    margin: 0;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.margin-medium {
+    margin: 15px;
+}
+
+.margin-vertical-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.margin-vertical-medium {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-horizontal-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-sides-tiny {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.margin-sides-smaller {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.margin-sides-small {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.margin-sides-medium {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.width-auto {
+    width: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.width75 {
+    width: 75%;
+}
+
+.width66 {
+    width: 66.666%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width33 {
+    width: 33.333%;
+}
+
+.width25 {
+    width: 25%;
+}
+
+.width20 {
+    width: 20%;
+}
+
+.width15 {
+    width: 15%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.h-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    align-items: center;
+}
+
+.h-boxItem {
+    height: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.v-box {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.v-boxItem {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.paddingSides10px {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paddingTopBottom10px {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.paddingTopBottomNone {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.padding-none {
+    padding: 0;
+}
+
+.spacer {
+    width: 100%;
+    height: 25px;
+}
+
+.max-width-100 {
+    max-width: 100%;
+}
+
+.interactable-size-tiniest {
+    width: 25px;
+    max-width: 100%;
+}
+
+.interactable-size-tiny {
+    width: 50px;
+    max-width: 100%;
+}
+
+.interactable-size-1, .interactable-size-small {
+    width: 120px;
+    max-width: 100%;
+}
+
+.interactable-size-medium {
+    width: 160px;
+    max-width: 100%;
+}
+
+.interactable-size-2, .interactable-size-large {
+    width: 245px;
+    max-width: 100%;
+}
+
+.interactable-size-3, .interactable-size-larger {
+    width: 360px;
+    max-width: 100%;
+}
+
+.interactable-size-4, .interactable-size-huge {
+    width: 490px;
+    max-width: 100%;
+}
+
+.interactable-size-5, .interactable-size-max {
+    width: 980px;
+    max-width: 100%;
+}
+
+.label-size-small {
+    width: 80px;
+}
+
+.label-size-medium {
+    width: 120px;
+}
+
+.label-size-large {
+    width: 160px;
+}
+
+.label-size-larger {
+    width: 200px;
+}
+
+.display-none {
+    display: none;
+}
+
+.min-height-small {
+    min-height: 75px;
+}
+
+.min-height-large {
+    min-height: 200px;
+}
+
+.responsive-column-group {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.responsive-column {
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.responsive-column .ember-view:only-child {
+    height: 100%;
+    width: 100%;
+}
+
+.value-control-field-size-tiny {
+    width: 40px;
+}
+
+.value-control-field-size-small {
+    width: 60px;
+}
+
+.value-control-field-size-medium {
+    width: 80px;
+}
+
+.value-control-field-size-large {
+    width: 120px;
+}
+
+.collapsible-content-size-small {
+    max-height: 200px;
+}
+
+.collapsible-content-size-medium {
+    max-height: 400px;
+}
+
+.collapsible-content-size-large {
+    max-height: 600px;
+}
+
+.icon-fixed-width {
+    width: 30px !important
+}
+
+.list-element {
+    margin: 5px;
+    max-width: calc(100% - 10px);
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+    .responsive-column-group {
+        display: table;
+        border-collapse: separate;
+        border-spacing: 10px 5px;
+        left: -10px;
+        right: -10px;
+    }
+
+    .responsive-column {
+        display: table-cell;
+    }
+
+    .responsive-column-group>.responsive-column:first-child {
+        margin-left: 0;
+    }
+
+    .responsive-column-group>.responsive-column:last-child {
+        margin-right: 0;
+    }
+}
+
+.table thead th {
+    border: none;
+    z-index: 2;
+}
+
+.table tbody td {
+    padding: 0 0.5rem 0 0.25rem;
+    border: none;
+    vertical-align: middle;
+}
+
+.sticky-header th {
+    top: 0;
+    position: sticky;
+    background-color: var(--colorGreyDarker);
+}
+
+.vertical-align-middle {
+    vertical-align: middle !important;
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* For mobile: */
+    .responsive-column {
+        width: 100% !important;
+    }
+}
+
+.list-container {
+    border: 1px solid var(--colorGreyMedium);
+    overflow: auto;
+}
+
+.width-min-content {
+    width: min-content;
+}

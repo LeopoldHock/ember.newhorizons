@@ -1,0 +1,68 @@
+<table class="table">
+    <thead>
+        <tr class="sticky-header">
+            <th />
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/traits/column/trait" }}
+                    @sort={{this.sortByProperty}} @sortingKey="localizedLabel" />
+            </th>
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/traits/column/details" }} />
+            </th>
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/traits/column/level" }} />
+            </th>
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/traits/column/costs" }}
+                    @sort={{this.sortByProperty}} @sortingKey="data.costs" />
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each this.rows as |row| }}
+        <tr>
+            <td class="flex">
+                <Interactable::ButtonInfo class="float-left" @article="basic-rules/supplement-traits/{{row.data.id}}" />
+                {{#if @isOwned}}
+                {{#unless row.hideRemoveButton}}
+                <Interactable::ButtonSquare class="float-left" @icon="minus" @onClick={{fn this.onRemoveClick row }} />
+                {{/unless}}
+                {{else}}
+                <Interactable::ButtonSquare class="float-left" @icon="plus" @onClick={{fn this.onAddClick row}} />
+                {{/if}}
+            </td>
+            <td class="vertical-align-middle">
+                {{row.localizedLabel}}
+            </td>
+            <td>
+                {{#if row.data.needsInput}}
+                <Interactable::Inputfield @size="large" @changeset={{row.changeset}} @key="input" @required={{true}}
+                    @invalid={{row.invalid}} @disabled={{this.isOwned}} />
+                {{/if}}
+                {{#if row.data.hasOptions}}
+                <div>
+                    {{#unless this.isOwned}}
+                    <Interactable::Dropdown @size="large" @items={{row.data.options}}
+                        @onChangeListener={{this.onOptionChange}} @context={{row}} />
+                    {{/unless}}
+                    {{#if this.isOwned}}
+                    <Interactable::Dropdown @size="large" @items={{row.data.options}}
+                        @selectedItem={{row.data.selectedOption}} @disabled={{true}} />
+                    {{/if}}
+                </div>
+                {{/if}}
+            </td>
+            <td>
+                {{#if row.data.hasLevel}}
+                <Interactable::ValueControl @object={{row.data}} @value={{row.data.level}} @min={{row.data.minLevel}}
+                    @max={{row.data.maxLevel}} @onChangeListener={{this.onLevelChange}} @disabled={{if this.isOwned
+                    false true}} />
+                {{/if}}
+            </td>
+            <td class="text-right margin-sides-smaller">
+                {{identifiables/trait-costs row.data}}
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

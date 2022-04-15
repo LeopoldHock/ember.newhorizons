@@ -1,0 +1,70 @@
+/*  Leopold Hock | 30.04.2020
+Description: Contains simple color classes (fg = foreground, bg = background).  */
+
+.fg-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.fg-teal-neon {
+    color: var(--colorTealNeon);
+}
+
+.bg-teal-neon {
+    background-color: var(--colorTealNeon);
+}
+
+.ts-teal-neon {
+    text-shadow: 0 0 10px var(--colorTealNeon);
+}
+
+.fg-teal-bright {
+    color: var(--colorTealBright);
+}
+
+.bg-teal-bright {
+    background-color: var(--colorTealBright);
+}
+
+.fg-teal-dark {
+    color: var(--colorTealDark);
+}
+
+.bg-teal-dark {
+    background-color: var(--colorTealDark);
+}
+
+.fg-grey-bright {
+    color: var(--colorGreyBright);
+}
+
+.fg-grey-medium {
+    color: var(--colorGreyMedium);
+}
+
+.fg-success, .fg-s {
+    color: var(--colorSuccess);
+}
+
+.fg-warning, .fg-w {
+    color: var(--colorWarning);
+}
+
+.fg-error, .fg-e, .fg-x {
+    color: var(--colorError);
+}
+
+.fg-text-default, .fg-default {
+    color: var(--colorTextDefault);
+}
+
+.fg-text-subtitle, .fg-subtitle {
+    color: var(--colorTextSubtitle);
+}
+
+.border-color-x {
+    border-color: var(--colorError);
+}

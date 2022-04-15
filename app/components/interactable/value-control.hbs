@@ -1,0 +1,29 @@
+<div class="interactable-container container">
+    <div class="row full-width justify-content-{{@alignment}}">
+        {{#if @label}}
+        <Misc::Label @label={{@label}} @required={{@required}} @labelSize={{@labelSize}} />
+        {{/if}}
+        <div class="interactable-element width-auto">
+            {{#if this.showButtons}}
+            <button type="button" class="button button-square" {{on "click" this.onDecreaseClick}}
+                disabled={{this.isDecreaseDisabled}}>
+                <FaIcon @icon="chevron-left" />
+            </button>
+            {{/if}}
+            <p class="value-control-field value-control-field-size-{{this.size}} text-{{this.textPosition}} interactable {{if (and this.isDecreaseDisabled this.isIncreaseDisabled) 'value-control-field-disabled'}}"
+                disabled={{true}}>{{@value}}</p>
+            {{#if this.showButtons}}
+            <button type="button" class="button button-square" {{on "click" this.onIncreaseClick}}
+                disabled={{this.isIncreaseDisabled}}>
+                <FaIcon @icon="chevron-right" />
+            </button>
+            {{/if}}
+            {{#if @info}}
+            <Interactable::ButtonInfo @article={{@info}} />
+            {{/if}}
+        </div>
+        {{#if @subtitle}}
+        <p class="interactable-subtitle">{{@subtitle}}</p>
+        {{/if}}
+    </div>
+</div>

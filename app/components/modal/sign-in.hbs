@@ -1,0 +1,15 @@
+<div class="modal-inner">
+    <div class="modal-inner-header modal-header-default">
+        <div class="modal-header-title-container">
+            <FaIcon @icon="right-to-bracket" class="modal-header-icon" />
+            <h4 class="modal-header-title">{{localize "modal/sign-in/title"}}</h4>
+        </div>
+        <button type="button" class="modal-button-close" {{on "click" this.modalService.hide}}>
+            <FaIcon @icon="xmark" />
+        </button>
+    </div>
+    <div class="modal-inner-content">
+        <Misc::sign-in />
+        <div class="spacer" />
+    </div>
+</div>

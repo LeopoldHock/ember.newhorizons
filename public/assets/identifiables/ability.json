@@ -1,0 +1,2257 @@
+[
+    {
+        "id": "ability/general/acclimatization",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": true,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/general/armor-habituation-1",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/general/armor-habituation-2",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 14,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/general/ArmorHabituation1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/general/armor-habituation-3",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 14,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/general/ArmorHabituation2",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 300,
+        "targets": []
+    },
+    {
+        "id": "ability/general/combat-experience",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "sec-a/de",
+                "type": "",
+                "input": "",
+                "level": 8,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 400,
+        "targets": []
+    },
+    {
+        "id": "ability/general/implant-habituation-1",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/general/implant-habituation-2",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 14,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/general/ImplantHabituation1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/general/language",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [],
+        "needsInput": true,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/general/local-knowledge",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [],
+        "needsInput": true,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/general/master-of-improvisation",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/dx",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/general/mid-hacking",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/crafting/programming",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 300,
+        "targets": []
+    },
+    {
+        "id": "ability/general/quick-drawing",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/dx",
+                "type": "",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/general/reflexes-1",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "sec-a/re",
+                "type": "",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 300,
+        "targets": [
+            {
+                "id": "sec-a/re",
+                "type": "bonus",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "id": "ability/general/reflexes-2",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/general/reflexes-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": [
+            {
+                "id": "sec-a/re",
+                "type": "bonus",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "id": "ability/general/specialisation",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "Skill",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": true,
+        "options": [
+            {
+                "id": "specialisation/skill/combat/onboard-weapons/ballistic-cannons",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/combat/onboard-weapons/gauss-cannons",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/combat/onboard-weapons/torpedo-launchers",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/combat/rifles/automatic-rifles",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/combat/rifles/semi-automatic-rifles",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/combat/rifles/shotguns",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/animal-training/any-kind-of-family",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/cooking/drink-preparation",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/cooking/food-preparation",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/drawing/calligraphy",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/drawing/painting",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/drawing/technical-drawing",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/electrical-engineering/computer-engineering",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/electrical-engineering/control-engineering",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/electrical-engineering/cybernetics",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/electrical-engineering/mechatronics",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/electrical-engineering/power-engineering",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/explosives/ammunition",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/explosives/disarming",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/explosives/explosives-production",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/explosives/fuels",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/making-music/any-kind-of-instrument",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/material-processing/metal-processing",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/material-processing/plastics-processing",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/material-processing/stone-cutting",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/material-processing/tailoring",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/material-processing/woodworking",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/mechanical-engineering/machinery-construction",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/mechanical-engineering/strutural-engineering",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/mechanical-engineering/vehicle-construction",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/mechanical-engineering/weapon-smithing",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/medical-care/internal-medicine",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/medical-care/neurology",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/medical-care/psychology",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/medical-care/veterinary-medicine",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/pharmaceutics/pharmacology",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/pharmaceutics/toxicology",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/playing-games/gambling",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/playing-games/video-gaming",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/programming/hacking",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/programming/software-engineering",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/writing/fictional-writing",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/writing/journalistic-writing",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            },
+            {
+                "id": "specialisation/skill/crafting/writing/scientific-writing",
+                "changesCost": false,
+                "value": "",
+                "restrictions": [],
+                "targets": []
+            }
+        ],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 0,
+        "targets": []
+    },
+    {
+        "id": "ability/general/steady",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/general/strong-nerves",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/general/vti-commanding",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "skill/knowledge/tactics-and-strategy",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 300,
+        "targets": []
+    },
+    {
+        "id": "ability/general/wealth-of-knowledge",
+        "abilityCategory": "ability-category/general",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cl",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/aimed-strike",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 1,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/breakaway",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/PowerAttack",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 3,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/disarming",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/ImprovedParrying",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 2,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/evasion-1",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 300,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/evasion-2",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/evasion-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/evasion-3",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/evasion-2",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/feint",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "ability/melee/aimed-strike",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 1,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/full-attack",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/PowerAttack",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 2,
+        "staminaUse": 4,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/ImprovedParrying",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "sec-a/de",
+                "type": "",
+                "input": "",
+                "level": 8,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 2,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/KnockingDown",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 14,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/PowerAttack",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 2,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/PowerAttack",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 2,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/Resisting",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/ImprovedParrying",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 2,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/StunningStrike",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/PowerAttack",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 2,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/melee/TwohandedMelee",
+        "abilityCategory": "ability-category/melee",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/melee/aimed-strike",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 400,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/accurate",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "ability/ranged/precision-shot-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/barrage-fire",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/ranged/precision-shot-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 2,
+        "staminaUse": 4,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/experienced-heavy-weapons-user",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/st",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/focus",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/ranged/precision-shot-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 300,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/precision-shot-1",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/dx",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 1,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/precision-shot-2",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/dx",
+                "type": "",
+                "input": "",
+                "level": 14,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/ranged/precision-shot-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 2,
+        "staminaUse": 2,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/precision-shot-3",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/dx",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/ranged/precision-shot-2",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 3,
+        "staminaUse": 3,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 400,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/prepare-attack",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/general/reflexes-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 0,
+        "staminaUse": 1,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/ranged/twohanded-ranged",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/ag",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/dx",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/general/reflexes-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 500,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/barrel-roll",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/extraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/intraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 1,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/broadside",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/extraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/intraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 1,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/dive-attack",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/extraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/intraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 2,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/flying-ace",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 13,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/extraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/intraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 500,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/low-level-flight",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 14,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/vehicles/outmaneuvering-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 2,
+        "costs": 300,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/luring-flight",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 14,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/vehicles/barrel-roll",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 2,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/onboard-marksman-1",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "skill/combat/onboard-weapons",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 1,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 1,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/onboard-marksman-2",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "skill/combat/onboard-weapons",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/vehicles/onboard-marksman-1",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 2,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 2,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/onboard-marksman-3",
+        "abilityCategory": "ability-category/ranged",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "skill/combat/onboard-weapons",
+                "type": "",
+                "input": "",
+                "level": 10,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/vehicles/onboard-marksman-2",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 3,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 3,
+        "costs": 400,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/outmaneuvering-1",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/extraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/intraplanetary-flying",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 2,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/outmaneuvering-2",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/cn",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/vehicles/outmaneuvering-1",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 3,
+        "costs": 200,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/rapid-turnaround",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 15,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "ability/vehicles/barrel-roll",
+                "type": "",
+                "input": "",
+                "level": 0,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": true,
+        "castTime": 2,
+        "staminaUse": 0,
+        "usesPower": true,
+        "powerUse": 3,
+        "costs": 300,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/save-driving-land-vehicles",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/land-vehicles",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    },
+    {
+        "id": "ability/vehicles/save-driving-water-vehicles",
+        "abilityCategory": "ability-category/vehicles",
+        "editorOnly": false,
+        "requirements": [
+            {
+                "id": "pri-a/cr",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "pri-a/in",
+                "type": "",
+                "input": "",
+                "level": 12,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/vehicles/water-vehicles",
+                "type": "",
+                "input": "",
+                "level": 7,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "needsInput": false,
+        "input": "",
+        "isSpecialisation": false,
+        "options": [],
+        "isActive": false,
+        "castTime": 0,
+        "staminaUse": 0,
+        "usesPower": false,
+        "powerUse": 0,
+        "costs": 100,
+        "targets": []
+    }
+]

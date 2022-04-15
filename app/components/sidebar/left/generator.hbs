@@ -1,0 +1,36 @@
+<button class="sidebar-button-1" type="button" {{on 'click' this.returnToMenu}}>
+    <FaIcon @icon="chevron-left" @size={{this.manager.constants.sidebarIconSize}}
+        class="margin-sides-medium fg-teal-neon" />
+    <p class="margin-vertical-auto">{{localize "sidebar/generator/return-to-menu"}}</p>
+</button>
+<div class="sidebar-sep" />
+<h4 class="fg-white margin-vertical-medium sidebar-header">{{localize "sidebar/generator/title"}}</h4>
+<div class="v-box" id="generator-tabs">
+    <button id="sidebar-button-presets" type="button"
+        class="sidebar-button-1 {{if (eq this.manager.router.currentRouteName 'generator.preset') 'sidebar-button-1-highlighted'}}"
+        {{on 'click' (fn this.goToTab 'preset' )}}>
+        <FaIcon @icon="sliders" @size={{this.manager.constants.sidebarIconSize}}
+            class="margin-sides-medium fg-teal-neon" />
+        <p class="margin-vertical-auto">{{localize "sidebar/generator/preset"}}</p>
+    </button>
+    <button id="sidebar-button-origin" type="button"
+        class="sidebar-button-1 {{if (eq this.manager.router.currentRouteName 'generator.origin') 'sidebar-button-1-highlighted'}}"
+        disabled={{if this.generator.generationInProcess false true}} {{on 'click' (fn this.goToTab 'origin' )}}>
+        <FaIcon @icon="globe" @size={{this.manager.constants.sidebarIconSize}}
+            class="margin-sides-medium fg-teal-neon" />
+        <p class="margin-vertical-auto">{{localize "sidebar/generator/origin"}}</p>
+    </button>
+    {{#each this.tabs as |tab|}}
+    <button id="sidebar-button-{{tab.id}}" type="button"
+        class="sidebar-button-1 {{if (eq this.manager.router.currentRouteName tab.routeName) 'sidebar-button-1-highlighted'}}"
+        disabled={{if this.generator.originChosen false true}} {{on 'click' (fn this.goToTab tab.id)}}>
+        <FaIcon @icon={{tab.icon}} @size={{this.manager.constants.sidebarIconSize}}
+            class="margin-sides-medium fg-teal-neon" />
+        <p class="margin-vertical-auto">{{localize (concat "sidebar/generator/" tab.id)}}</p>
+    </button>
+    {{/each}}
+    <button class="sidebar-button-1" type="button" {{on 'click' this.generator.logStatus}}>
+        <FaIcon @icon="code" @size={{this.sidebarIconSize}} class="margin-sides-medium fg-teal-neon" />
+        <p class="margin-vertical-auto">Status</p>
+    </button>
+</div>

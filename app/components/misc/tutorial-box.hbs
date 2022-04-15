@@ -1,0 +1,11 @@
+<div class="tutorial-box {{if (eq this.hidden true) 'tutorial-box-hidden'}}">
+    <div class="flex justify-content-between">
+        <div class="flex flex-column">
+            <h6 class="tutorial-box-title">{{@title}}</h6>
+            <p class="tutorial-box-text">{{@text}}</p>
+        </div>
+        <button class="tutorial-box-close-button" type="button" {{on "click" this.onClose}}>
+            <FaIcon @icon="xmark" @size="2x" />
+        </button>
+    </div>
+</div>

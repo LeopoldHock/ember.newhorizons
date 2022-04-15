@@ -1,0 +1,20 @@
+<Portal @target="sidebar-left">
+    <Sidebar::Left::Stellarpedia @data={{@model.sidebarData}} />
+</Portal>
+
+<div class="panel panel-large h-box paddingTopBottomNone justify-content-between">
+    <div class="h-boxItem">
+        <p class="stellarpedia-status-text">{{this.stellarpedia.currentPosition}}</p>
+    </div>
+    <div class="h-boxItem justify-content-end">
+        <button type="button" class="button-icon-1" {{on "click" this.onShare}}>
+            <FaIcon @icon="share" />
+        </button>
+        <button type="button" class="button-icon-1" {{on "click" this.onSearch}}>
+            <FaIcon @icon="magnifying-glass" />
+        </button>
+    </div>
+</div>
+<div class="panel">
+    <Stellarpedia::article @entry={{@model.entry}} />
+</div>

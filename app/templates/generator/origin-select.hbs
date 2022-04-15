@@ -1,0 +1,25 @@
+<Misc::Title @titleStyle="h2" @textPosition="center" @text={{localize "Route_Generator_Origin_Title" }} />
+<Layout::Panel @alignment="center">
+    <form class="container" {{on "submit" this.onSubmit}}>
+        <Misc::Title @titleStyle="h4" @textPosition="center" @text={{localize @model.data.origin.id}} />
+        <Misc::Spacer />
+        <Interactable::Inputfield @label={{localize "Route/generator/origin-select/mother-tongue" }}
+            @changeset={{this.changeset}} @key="motherTongue" @size="large"
+            @subtitle={{localize "Route/generator/origin-select/mother-tongue-subtitle" }} @required={{true}}
+            @maxLength="40" @disabled={{this.disableButtons}} />
+        <Misc::Spacer />
+        <div class="row full-width justify-content-center align-items-start">
+            {{#each @model.data.skillOptions as |skillOption|}}
+            <div class="col-md">
+                <Interactable::radio-group class="interactable-size-large"
+                    @label={{localize "Route/generator/origin-select/choose-skill" }}
+                    @radioName={{skillOption.radioName}} @changeset={{this.changeset}} @key={{skillOption.radioName}}
+                    @options={{skillOption.options}} @disabled={{this.disableButtons}} />
+            </div>
+            {{/each}}
+        </div>
+        <Misc::Spacer />
+        <Interactable::button @label={{localize "Route/generator/origin-select/submit" }} @size="large" @type="submit"
+            @disabled={{this.disableButtons}} />
+    </form>
+</Layout::Panel>

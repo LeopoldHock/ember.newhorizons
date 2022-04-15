@@ -1,0 +1,18 @@
+<h2 class="text-{{@titleAlignment}}">{{this.header}}</h2>
+<div class="separator" />
+<Stellarpedia::Text @text={{stellarpedia/sp-prepare this.text}} />
+{{#if (gte (identifiables/trait-costs this.data) 0)}}
+<Stellarpedia::Text @style="subtitle" @title={{localize "stellarpedia/article/trait/gp-bonus" }} @text={{this.cost}} />
+{{else}}
+<Stellarpedia::Text @style="subtitle" @title={{localize "stellarpedia/article/trait/gp-cost" }} @text={{this.cost}} />
+{{/if}}
+{{#if this.options}}
+<Stellarpedia::Text @style="subtitle" @title={{localize "stellarpedia/article/trait/options" }}
+    @text={{stellarpedia/sp-prepare this.options}} />
+{{/if}}
+{{#if this.data.hasLevel}}
+<Stellarpedia::Text @style="subtitle" @text={{localize "stellarpedia/article/trait/has-level" }} />
+{{/if}}
+{{#if this.data.needsInput}}
+<Stellarpedia::Text @style="subtitle" @text={{localize "stellarpedia/article/trait/needs-input" }} />
+{{/if}}

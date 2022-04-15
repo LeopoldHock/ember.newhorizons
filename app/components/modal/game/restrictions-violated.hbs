@@ -1,0 +1,30 @@
+<div class="modal-inner">
+    <div class="modal-inner-header modal-header-error">
+        <div class="modal-header-title-container">
+            <FaIcon @icon="exclamation-circle" class="modal-header-icon" />
+            <h4 class="modal-header-title">{{localize "Modal_Game_RestrictionViolated_Title"}}</h4>
+        </div>
+        <button type="button" class="modal-button-close" {{on "click" this.modalService.hide}}>
+            <FaIcon @icon="xmark" />
+        </button>
+    </div>
+    <div class="modal-inner-content">
+        <p>{{localize "Modal_Game_RestrictionViolated_Text"}}</p>
+        <ul>
+            {{#each this.violations as |violation|}}
+            <li>
+                <div class="flex align-items-center">
+                    <p>{{violation.textLeft}}</p>
+                    <FaIcon @icon="bolt" class="margin-sides-small" />
+                    <p>{{violation.textRight}}</p>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="modal-inner-footer">
+        <button id="modal-button-footer-yes" type="button" class="button" {{on "click" this.onYesClick}}>
+            {{localize "Misc_Ok"}}
+        </button>
+    </div>
+</div>

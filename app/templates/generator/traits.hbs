@@ -1,0 +1,21 @@
+<Layout::Panel @size="large" @alignment="center">
+    <Layout::PanelHeader @title={{localize "route/generator/traits/title" }}
+        @article="basic-rules/the-first-character/traits" />
+    <h5>{{localize "route/generator/traits/gp-available"}}: {{this.generator.gpAvailable}}</h5>
+    <div class="full-width">
+        <BsTab as |tab|>
+            <tab.pane @title={{localize "Route/generator/traits/available-traits" }}>
+                <List::Container class="full-width margin-vertical-medium" @size="large">
+                    <List::Traits @data={{@model.traitsAvailable}} @sortingKey="localizedLabel" @isGenerator={{true}}
+                        @isOwned={{false}} />
+                </List::Container>
+            </tab.pane>
+            <tab.pane @title={{localize "Route/generator/traits/owned-traits" }}>
+                <List::Container class="full-width margin-vertical-medium" @size="large">
+                    <List::Traits @data={{@model.traitsOwned}} @sortingKey="localizedLabel" @isGenerator={{true}}
+                        @isOwned={{true}} />
+                </List::Container>
+            </tab.pane>
+        </BsTab>
+    </div>
+</Layout::Panel>

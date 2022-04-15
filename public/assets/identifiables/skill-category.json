@@ -1,0 +1,56 @@
+[
+    {
+        "id": "skill-category/combat",
+        "available": 0,
+        "total": 0,
+        "min": 0,
+        "max": 100,
+        "numberOfSkills": 0,
+        "maxNumberOfSkills": 0
+    },
+    {
+        "id": "skill-category/physical",
+        "available": 0,
+        "total": 0,
+        "min": 0,
+        "max": 100,
+        "numberOfSkills": 0,
+        "maxNumberOfSkills": 0
+    },
+    {
+        "id": "skill-category/crafting",
+        "available": 0,
+        "total": 0,
+        "min": 0,
+        "max": 100,
+        "numberOfSkills": 0,
+        "maxNumberOfSkills": 0
+    },
+    {
+        "id": "skill-category/vehicles",
+        "available": 0,
+        "total": 0,
+        "min": 0,
+        "max": 100,
+        "numberOfSkills": 0,
+        "maxNumberOfSkills": 0
+    },
+    {
+        "id": "skill-category/social",
+        "available": 0,
+        "total": 0,
+        "min": 0,
+        "max": 100,
+        "numberOfSkills": 0,
+        "maxNumberOfSkills": 0
+    },
+    {
+        "id": "skill-category/knowledge",
+        "available": 0,
+        "total": 0,
+        "min": 0,
+        "max": 100,
+        "numberOfSkills": 0,
+        "maxNumberOfSkills": 0
+    }
+]

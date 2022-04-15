@@ -1,0 +1,7 @@
+<div class="stellarpedia-row stellarpedia-row-{{this.rowData.type}}" {{did-insert this.didInsert}}>
+    {{#each this.rowData.cells as |cell|}}
+    <div class="stellarpedia-cell {{cell.alignment}}" style={{cell.width}}>
+        <p>{{cell.text}}</p>
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,12 @@
+<div class="interactable-container">
+    <div class="interactable-element interactable-size-{{@size}}">
+        <button type={{@type}} class="button full-width" disabled={{this.isDisabled}} {{on "click" this.handleClick}}>
+            {{#if @busy}}
+            <FaIcon @icon="cog" @spin={{true}} @size="2x" class="position-absolute" />
+            <span class="sr-only">{{localize "component/interactable/button/loading"}}</span>
+            {{else}}
+            {{@label}}
+            {{/if}}
+        </button>
+    </div>
+</div>

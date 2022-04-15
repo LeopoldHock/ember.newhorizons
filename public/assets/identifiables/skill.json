@@ -1,0 +1,1388 @@
+[
+    {
+        "id": "skill/combat/energy-weapons",
+        "skillCategory": "skill-category/combat",
+        "factor": 6,
+        "constraint": 1,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/combat/heavy-weapons",
+        "skillCategory": "skill-category/combat",
+        "factor": 6,
+        "constraint": 1,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/st",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/combat/melee-hands",
+        "skillCategory": "skill-category/combat",
+        "factor": 4,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cn",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/combat/melee-weapons",
+        "skillCategory": "skill-category/combat",
+        "factor": 4,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/ag",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/combat/onboard-weapons",
+        "skillCategory": "skill-category/combat",
+        "factor": 6,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/combat/pistols",
+        "skillCategory": "skill-category/combat",
+        "factor": 5,
+        "constraint": 1,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/dx",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/combat/rifles",
+        "skillCategory": "skill-category/combat",
+        "factor": 6,
+        "constraint": 1,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/combat/throwing",
+        "skillCategory": "skill-category/combat",
+        "factor": 4,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/dx",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 1,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/animal-training",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 2,
+        "requirements": [
+            {
+                "id": "skill/knowledge/biology-and-medicine",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/computers",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/cooking",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/disguising",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/drawing",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/dx",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/electrical-engineering",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/dx",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/electronics",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/explosives",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/chemistry",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/electronics",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/making-music",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/dx",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/music",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/material-processing",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/dx",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/mechanical-engineering",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/dx",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/electronics",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/physics-and-mechanics",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/medical-care",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/biology-and-medicine",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/pharmaceutics",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/biology-and-medicine",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            },
+            {
+                "id": "skill/knowledge/chemistry",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/playing-games",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/gaming",
+                "type": "",
+                "input": "",
+                "level": 3,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/crafting/programming",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [
+            {
+                "id": "skill/knowledge/informatics",
+                "type": "",
+                "input": "",
+                "level": 5,
+                "overrideCurrent": false,
+                "oldLevel": 0
+            }
+        ],
+        "specialExperience": 0
+    },
+    {
+        "id": "Skill_Crafting_Writing",
+        "skillCategory": "skill-category/crafting",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": true,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/art",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/astronomy",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/biology-and-medicine",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/chemistry",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/electronics",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/gaming",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/general-knowledge",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/geology",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/history",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/informatics",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/law",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/mathematics-and-economy",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/music",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/orientation",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/physics-and-mechanics",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/spaceflight",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/survival",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/knowledge/tactics-and-strategy",
+        "skillCategory": "skill-category/knowledge",
+        "factor": 3,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/body-control",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/ag",
+            "pri-a/cn",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/climbing",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/ag",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/dancing",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/ch",
+            "pri-a/ag"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/diving",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/ag",
+            "pri-a/cn"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/imitating-voices",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/inebriating",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cn",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/perception",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/running",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/ag",
+            "pri-a/ag",
+            "pri-a/cn"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/singing",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/ch",
+            "pri-a/cn"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/sneaking-hiding",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 1,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/ag"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/stealing",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 1,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/dx"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/swimming",
+        "skillCategory": "skill-category/physical",
+        "factor": 5,
+        "constraint": 2,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/ag",
+            "pri-a/cn",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/physical/acting",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/flirting",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/ch",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/inspiring",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/intimidating",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cr",
+            "pri-a/st"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/judgement",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/reasoning",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/ch",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/self-control",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/soft-skills",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/in",
+            "pri-a/ch",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/teaching",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/social/trading",
+        "skillCategory": "skill-category/social",
+        "factor": 4,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/ch"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": true,
+        "baseValue": 0,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/vehicles/extraplanetary-flying",
+        "skillCategory": "skill-category/vehicles",
+        "factor": 6,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cl",
+            "pri-a/in",
+            "pri-a/cn"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 2,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/vehicles/intraplanetary-flying",
+        "skillCategory": "skill-category/vehicles",
+        "factor": 6,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/in",
+            "pri-a/cn"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 2,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/vehicles/land-vehicles",
+        "skillCategory": "skill-category/vehicles",
+        "factor": 6,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 2,
+        "requirements": [],
+        "specialExperience": 0
+    },
+    {
+        "id": "skill/vehicles/water-vehicles",
+        "skillCategory": "skill-category/vehicles",
+        "factor": 6,
+        "constraint": 0,
+        "current": 0,
+        "min": 0,
+        "max": 0,
+        "primaryAttributes": [
+            "pri-a/cr",
+            "pri-a/cl",
+            "pri-a/in"
+        ],
+        "hasSpecialisations": false,
+        "isBasic": false,
+        "baseValue": 2,
+        "requirements": [],
+        "specialExperience": 0
+    }
+]

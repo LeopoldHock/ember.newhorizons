@@ -1,0 +1,30 @@
+<div class="modal-inner">
+    <div class="modal-inner-header modal-header-{{this.type}}">
+        <div class="modal-header-title-container">
+            {{#if this.icon}}
+            <FaIcon @icon={{this.icon}} class="modal-header-icon" />
+            {{/if}}
+            <h4 class="modal-header-title">{{localize this.title}}</h4>
+        </div>
+        {{#if this.isClosable}}
+        <button type="button" class="modal-button-close" {{on "click" this.modalService.hide}}>
+            <FaIcon @icon="xmark" />
+        </button>
+        {{/if}}
+    </div>
+    <div class="modal-inner-content">
+        {{#each this.text as |text|}}
+        <p>{{localize text true}}</p>
+        {{/each}}
+    </div>
+    <div class="modal-inner-footer">
+        <button id="modal-button-footer-yes" type="button" class="button" {{on "click" this.onYesClick}}>
+            {{localize this.yesLabel}}
+        </button>
+        {{#if this.noLabel}}
+        <button id="modal-button-footer-no" type="button" class="button" {{on "click" this.onNoClick}}>
+            {{localize this.noLabel}}
+        </button>
+        {{/if}}
+    </div>
+</div>

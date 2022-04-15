@@ -1,0 +1,37 @@
+<h2 class="fg-white text-center">{{localize "route/generator/abilities/title"}}</h2>
+<Layout::Panel @size="large" @alignment="center">
+    <h5>{{localize "route/generator/abilities/available-gp"}}: {{this.generator.gpAvailable}}</h5>
+    <h5>{{localize "route/generator/abilities/abilities-max"}}:
+        {{@model.abilitiesOwned.length}}/{{@model.abilitiesMax}}</h5>
+    <Misc::Spacer />
+    <div class="full-width">
+        <BsTab as |tab|>
+            <tab.pane @title={{localize "route/generator/abilities/available-abilities" }}>
+                {{#each @model.abilityCategories as |abilityCategory|}}
+                <Interactable::Collapsible class="full-width margin-vertical-medium" @noPadding={{true}} @size="medium"
+                    @title={{localize abilityCategory.id }}
+                    @collapsed={{abilityCategory.collapsibleCollapsedAvailable}}>
+                    <div class="responsive-table full-width">
+                        <List::Abilities @character={{@model.character}} @data={{@model.abilitiesAvailable}}
+                            @abilityCategory={{abilityCategory.id}} @sortingKey="localizedLabel" @isGenerator={{true}}
+                            @isOwned={{false}} @budget={{abilityCategory.available}} />
+                    </div>
+                </Interactable::Collapsible>
+                {{/each}}
+            </tab.pane>
+            <tab.pane @title={{localize "route/generator/abilities/owned-abilities" }}>
+                {{#each @model.abilityCategories as |abilityCategories|}}
+                <Interactable::Collapsible class="full-width margin-vertical-medium" @noPadding={{true}} @size="medium"
+                    @title={{localize abilityCategories.id }}
+                    @collapsed={{abilityCategories.collapsibleCollapsedOwned}}>
+                    <div class="responsive-table full-width">
+                        <List::Abilities @character={{@model.character}} @data={{@model.abilitiesOwned}}
+                            @abilityCategory={{abilityCategories.id}} @sortingKey="localizedLabel" @isGenerator={{true}}
+                            @isOwned={{true}} @budget={{abilityCategories.available}} />
+                    </div>
+                </Interactable::Collapsible>
+                {{/each}}
+            </tab.pane>
+        </BsTab>
+    </div>
+</Layout::Panel>

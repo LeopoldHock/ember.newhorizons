@@ -1,0 +1,60 @@
+<table class="table">
+    <thead>
+        <tr class="sticky-header">
+            <th />
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/abilities/column/ability" }}
+                    @sort={{this.sortByProperty}} @sortingKey="localizedLabel" />
+            </th>
+            <th>
+                <List::ColumnHeader @label={{localize "component/list/abilities/column/details" }} />
+            </th>
+            <th>
+                <List::ColumnHeader @label={{localize (if
+                    this.isGenerator "component/list/abilities/column/costs-gp" "component/list/abilities/column/costs-ep"
+                    ) }} />
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each this.rows as |row| }}
+        <tr>
+            <td class="flex">
+                <Interactable::ButtonInfo class="float-left"
+                    @article="basic-rules/supplement-abilities/{{row.data.id}}" />
+                {{#if @isOwned}}
+                {{#unless row.hideRemoveButton}}
+                <Interactable::ButtonSquare class="float-left" @icon="minus" @onClick={{fn this.onRemoveClick row }} />
+                {{/unless}}
+                {{else}}
+                <Interactable::ButtonSquare class="float-left" @icon="plus" @onClick={{fn this.onAddClick row}} />
+                {{/if}}
+            </td>
+            <td class="vertical-align-middle">
+                {{row.localizedLabel}}
+            </td>
+            <td>
+                {{#if row.data.needsInput}}
+                <Interactable::Inputfield @size="large" @changeset={{row.changeset}} @key="input" @required={{true}}
+                    @invalid={{row.invalid}} @disabled={{this.isOwned}} />
+                {{/if}}
+                {{#if row.data.hasOptions}}
+                <div>
+                    {{#unless this.isOwned}}
+                    <Interactable::Dropdown @size="large" @items={{row.data.options}}
+                        @onChangeListener={{this.onOptionChange}} @context={{row}} />
+                    {{/unless}}
+                    {{#if this.isOwned}}
+                    <Interactable::Dropdown @size="large" @items={{row.data.options}}
+                        @selectedItem={{row.data.selectedOption}} @disabled={{true}} />
+                    {{/if}}
+                </div>
+                {{/if}}
+            </td>
+            <td class="text-right margin-sides-smaller">
+                {{identifiables/ability-costs row.data @isGenerator}}
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

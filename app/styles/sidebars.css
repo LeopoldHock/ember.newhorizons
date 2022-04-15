@@ -1,0 +1,210 @@
+/*
+Leopold Hock | 30.04.2020
+Description: Contains style information for the sidebars and their child controls.
+*/
+
+.header-sidebar-button {
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    color: var(--colorTealDark);
+}
+
+.header-sidebar-button:hover, .header-sidebar-button:active {
+    color: var(--colorTealNeon);
+}
+
+.header-sidebar-button:disabled {
+    color: var(--colorDisabled);
+}
+
+.sidebar {
+    height: calc(100% - 40px);
+    width: 0px;
+    max-width: 300px;
+    position: fixed;
+    z-index: 15;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    background-color: var(--colorPanelBackground);
+}
+
+.sidebar-left {
+    left: 0;
+    border-right: 1px solid;
+    border-image: var(--panelBorderGradientVertical);
+}
+
+.sidebar-left-content {
+    align-items: flex-start;
+    height: 100%;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar-right {
+    right: 0;
+    border-left: 1px solid;
+    border-image: var(--panelBorderGradientVertical);
+}
+
+.sidebar-right-content {
+    direction: rtl;
+    align-items: flex-start;
+    height: 100%;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* @media only screen and (min-width: 768px) {
+    .sidebar {
+        position: relative;
+    }
+} */
+
+.sidebar-item {
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: start;
+}
+
+.sidebar-header {
+    margin: 10px 10px 10px 25px;
+}
+
+.sidebar-header-r {
+    margin: 10px 25px 10px 10px;
+}
+
+.sidebar-header-toolbar {
+    display: flex;
+    margin-right: 5px;
+}
+
+.sidebar-item p {
+    font-family: ARJulian;
+    font-size: 18px;
+}
+
+.sidebar-sep {
+    width: 100%;
+    min-height: 2px;
+    height: 2px;
+    background-color: var(--colorGreyMedium);
+}
+
+.sidebar-button-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    background-color: transparent;
+    color: var(--colorGreyBright);
+    text-align: left;
+    transition: 200ms;
+}
+
+.sidebar-button-1 svg {
+    min-width: 20px;
+}
+
+.sidebar-button-1-highlighted {
+    background-color: var(--colorTealDark) !important;
+    color: white;
+    text-shadow: 0 0 10px #fff;
+}
+
+.sidebar-button-1:disabled p, .sidebar-button-1:disabled svg {
+    color: var(--colorGreyMedium);
+}
+
+.sidebar-button-1:hover:not(:disabled), .sidebar-button-1:active:not(:disabled) {
+    background-color: var(--colorGreyMedium);
+}
+
+.sidebar-button-2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    background-color: transparent;
+    color: var(--colorGreyBright);
+    text-align: left;
+    transition: 200ms;
+}
+
+.sidebar-button-2 p {
+    font-size: 18px
+}
+
+.sidebar-button-2:hover, .sidebar-button-2:active {
+    background-color: var(--colorGreyMedium);
+}
+
+.sidebar-button-2:disabled {
+    background-color: transparent;
+}
+
+.sidebar-button-2:disabled * {
+    color: var(--colorDisabled) !important;
+}
+
+.sidebar-button-2-selected {
+    color: var(--colorTealNeon);
+    background-color: var(--colorGreyMedium);
+}
+
+.sidebar-collapsible {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    border: none;
+    background-color: transparent;
+    color: var(--colorGreyBright);
+    transition: 200ms;
+    text-align: left;
+}
+
+.sidebar-collapsible:active, .sidebar-collapsible:hover {
+    background-color: var(--colorGreyMedium);
+}
+
+.sidebar-collapsible-content {
+    margin-left: 25px;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 200ms ease-in-out;
+}
+
+.sidebar-collapsible-content-expanded {
+    max-height: max-content;
+}
+
+.sidebar-button-tiny {
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    color: var(--colorTealDark);
+    border: none;
+    transition: 200ms;
+}
+
+.sidebar-button-tiny:active, .sidebar-button-tiny:hover {
+    color: var(--colorTealNeon);
+}
+
+.sidebar-collapsible-highlighted, .sidebar-collapsible-highlighted:active, .sidebar-collapsible-highlighted:hover {
+    background-color: var(--colorTealDark);
+}
+
+.sidebar-collapsible-highlighted * {
+    color: white;
+    text-shadow: 0 0 10px #fff;
+}

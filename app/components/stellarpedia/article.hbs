@@ -1,0 +1,13 @@
+{{#if (eq @entry.type "primary-attribute")}}
+<Stellarpedia::Article::PrimaryAttribute @entry={{@entry}} />
+{{else if (eq @entry.type "secondary-attribute")}}
+<Stellarpedia::Article::SecondaryAttribute @entry={{@entry}} />
+{{else if (eq @entry.type "origin")}}
+<Stellarpedia::Article::Origin @entry={{@entry}} />
+{{else if (eq @entry.type "trait")}}
+<Stellarpedia::Article::Trait @entry={{@entry}} />
+{{else if (eq @entry.type "skill")}}
+<Stellarpedia::Article::Skill @entry={{@entry}} />
+{{else}}
+<Stellarpedia::Article::Default @entry={{@entry}} />
+{{/if}}

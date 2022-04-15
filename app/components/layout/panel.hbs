@@ -1,0 +1,9 @@
+<div class="panel panel-{{@size}} v-box align-items-{{@alignment}}">
+    {{#if (is-empty @info)}}
+    {{else}}
+    <button type="button" class="button-square panel-info-button">
+        <FaIcon @icon="info" />
+    </button>
+    {{/if}}
+    {{yield}}
+</div>

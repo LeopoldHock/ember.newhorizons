@@ -1,0 +1,8 @@
+<h2 class="text-{{@titleAlignment}}">{{this.header}}</h2>
+<div class="separator" />
+<Stellarpedia::Image @rawInput={{this.image}} />
+<Stellarpedia::Text @text={{stellarpedia/sp-prepare this.text}} />
+<Stellarpedia::Text @style="subtitle" @title={{localize "stellarpedia/article/origin/attribute-bonus" }}
+    @text={{this.attributeBonus}} />
+<Stellarpedia::Text @style="subtitle" @title={{localize "stellarpedia/article/origin/skill-bonuses" }}
+    @text={{this.skillBonuses}} />

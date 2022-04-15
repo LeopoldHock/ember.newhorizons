@@ -1,0 +1,20 @@
+<div class="interactable-container container">
+    <div class="row full-width justify-content-{{@alignment}}">
+        {{#if @label}}
+        <Misc::Label @label={{@label}} @required={{@required}} @labelSize={{@labelSize}} />
+        {{/if}}
+        <div class="interactable-element interactable-size-{{@size}}">
+            <input {{did-insert this.onInputDidInsert}}
+                class="inputfield inputfield-{{this.type}} text-{{@textPosition}} interactable inputfield-hide-invalidity-{{this.hideInvalidity}}"
+                type={{@type}} pattern={{this.pattern}} minLength={{@minLength}} maxLength={{@maxLength}}
+                disabled={{@disabled}} required={{@required}} autofocus={{@autofocus}} value={{changeset-get @changeset
+                @key}} placeholder={{@placeholder}} {{on "change" this.onChange}} {{on "invalid" this.onInvalid}} />
+            {{#if @info}}
+            <Interactable::ButtonInfo @article={{@info}} />
+            {{/if}}
+        </div>
+        {{#if @subtitle}}
+        <p class="interactable-subtitle">{{@subtitle}}</p>
+        {{/if}}
+    </div>
+</div>

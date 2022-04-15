@@ -1,0 +1,7 @@
+{{#if @label}}
+{{#if this.sort}}
+<button type="button" class="th button-link" {{on 'click' this.onSortClick }}>{{@label}}</button>
+{{else}}
+{{@label}}
+{{/if}}
+{{/if}}

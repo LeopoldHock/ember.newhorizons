@@ -1,0 +1,62 @@
+<div class="v-box justify-content-center">
+    <div class="responsive-column-group">
+        <div class="responsive-column panel">
+            <div class="align-items-center v-box">
+                <h1 class="text-center"> New Horizons</h1>
+                <h3 class="fg-white text-center">The Tabletop Game</h3>
+                <img src="/assets/logo/Logo100x100.png" alt="New Horizons" />
+                <h4>Willkommen in der Welt von New Horizons!</h4>
+                <p> New Horizons ist ein Pen-&-Paper-Rollenspiel, das heißt, die Spieler*Innen verkörpern am Spieltisch
+                    fiktive
+                    Charaktere
+                    und betreten dadurch eine fantastische Welt. Erzählt wird diese Welt durch die , der selbst keinen
+                    eigenen
+                    Charakter verkörpert, stattdessen aber die gesamte belebte und unbelebte Umwelt, der die
+                    Spieler*Innen
+                    während eines Spielabends begegnen. Die Charaktere zeichnen sich durch individuelle Eigenschaften,
+                    Fähigkeiten und Hintergrundgeschichten aus. Die Spieler*Innen reagieren auf die Erzählung der
+                    Spielleiterin
+                    oder des Spielleiters. Erfolg oder Misserfolg Ihrer Aktionen werden durch Würfelproben auf
+                    Eigenschafts-
+                    und
+                    Fähigkeitswerte bestimmt, die auf den Charakterbögen schriftlich festgehalten werden. Die Spielwelt
+                    von
+                    New
+                    Horizons ist das besiedelte Sonnensystem des 23. Jahrhunderts. New Horizons verfolgt das Ziel, eine
+                    (aus
+                    naturwissenschaftlicher Perspektive) möglichst vorstellbare Zukunft zu beschreiben und erlebbar zu
+                    machen.
+                    Diese Software soll Spieler*Innen ermöglichen, schnell und einfach Charaktere zu erstellen und zu
+                    verwalten.
+                    Daneben beinhaltet Sie mit der Stellarpedia ein vollständiges Nachschlagewerk für Spielregeln und
+                    Spielinhalte.</p>
+                <div class="h-box justify-content-center">
+                    <FaIcon @icon="angles-right" class="margin-sides-smaller" />
+                    <LinkTo @route="stellarpedia" @model="basic-rules+introduction+a-short-story-of-the-solar-system">
+                        Eine kurze Geschichte des Sonnensystems</LinkTo>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="responsive-column-group">
+        <div class="responsive-column width20">
+            <Interactable::Card @icon="download" @text={{localize "route/home/card/legacy-generator" }}
+                @url="https://www.leopoldhock.de/files/NewHorizonsEditor.7z" />
+        </div>
+        <div class="responsive-column width20">
+            <Interactable::Card @icon="user-plus" @text={{localize "route/home/card/sign-up" }} @route="sign-up" />
+        </div>
+        <div class="responsive-column width20">
+            <Interactable::Card @icon="sun" @text={{localize "route/home/card/stellarpedia" }} @route="stellarpedia"
+                @model="basic-rules+introduction+welcome" />
+        </div>
+        <div class="responsive-column width20">
+            <Interactable::Card @icon="discord" @prefix="fab" @text={{localize "route/home/card/discord" }}
+                @url="https://discord.gg/anSjdatqby" />
+        </div>
+        <div class="responsive-column width20">
+            <Interactable::Card @icon="trello" @prefix="fab" @text={{localize "route/home/card/roadmap" }}
+                @url="https://trello.com/b/VMqZjDPH/new-horizons-roadmap" />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<form id="sign-in-form" class="align-items-center" {{on "submit" this.onSubmit}}>
+    <div class="interactable-size-larger">
+        <Interactable::inputfield class="paddingTopBottom10px" @label={{localize "component/sign-in/email-label" }}
+            @required={{true}} @placeholder={{localize "component/sign-in/email-placeholder" }} @maxLength="255"
+            @pattern={{this.manager.pattern.email}} @changeset={{this.changeset}} @key="email" @type="email"
+            @size="larger" />
+        <div class="panel-spacer" />
+        <Interactable::inputfield class="paddingTopBottom10px" @label={{localize "component/sign-in/password-label" }}
+            @required={{true}} @placeholder={{localize "component/sign-in/password-placeholder" }}
+            @changeset={{this.changeset}} @key="passwordRaw" @type="password" @maxLength="40"
+            @eventListeners={{this.passwordEventListeners}} @size="larger" />
+    </div>
+    <div class="min-height-small full-width">
+        <p id="password-requirements-text" class="text-center interactable-subtitle">
+            {{localize "component/sign-in/no-account-yet/text-01"}} <a href="/sign-up">{{localize
+                "component/sign-in/no-account-yet/text-02"}}</a>
+            <br />{{localize "component/sign-in/forgot-password/text-01"}}
+            <button type="button" class="button-link margin-sides-tiny" {{on "click"
+                this.callForgotPasswordModal}}>{{localize
+                "component/sign-in/forgot-password/text-02"}}</button>
+            <br />{{localize "component/sign-in/need-verification-key/text-01"}}
+            <button type="button" class="button-link margin-sides-tiny" {{on "click"
+                this.callRequestVerificationCodeModal}}>{{localize
+                "component/sign-in/need-verification-key/text-02"}}</button>
+        </p>
+    </div>
+    <Interactable::button @type="submit" @busy={{this.submitIsBusy}} @label={{localize "component/sign-in/submit" }}
+        @size="large" />
+</form>

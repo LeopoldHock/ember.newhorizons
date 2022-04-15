@@ -1,0 +1,48 @@
+<div class="interactable-container container">
+    <div class="row full-width justify-content-{{@alignment}}">
+        <Misc::Label @label={{@label}} @labelSize={{@labelSize}} />
+        <div class="interactable-element interactable-size-{{@size}}">
+            {{#if @cycle}}
+            <button type="button" class="button button-square" {{on "click" this.onPreviousClick}}
+                disabled={{this.isDisabled}}>
+                <FaIcon @icon="chevron-left" />
+            </button>
+            {{/if}}
+            <BsDropdown class="dropdown dropdown-cycle-{{@cycle}}" @tagName="span" as |dropdown|>
+                {{#if this.isDisabled}}
+                <dropdown.button disabled>
+                    <p class="dropdown-caption">{{this.caption}}</p>
+                    <span class="caret"></span>
+                </dropdown.button>
+                {{else}}
+                <dropdown.button>
+                    <p class="dropdown-caption">{{this.caption}}</p>
+                    <span class="caret"></span>
+                </dropdown.button>
+                {{/if}}
+                <dropdown.menu as |menu|>
+                    {{#each @items as |item|}}
+                    <menu.item>
+                        <a class="dropdown-item {{if (eq item.id this.firstItem.id) 'dropdown-item-first'}}  {{if (eq item.id this.lastItem.id) 'dropdown-item-last'}}"
+                            href="#" {{on "click" (fn this.onItemClicked item)}}>
+                            <p class="dropdown-item-label"> {{localize item.id}}</p>
+                        </a>
+                    </menu.item>
+                    {{#if (not-eq item.id this.lastItem.id)}}
+                    <menu.divider />
+                    {{/if}}
+                    {{/each}}
+                </dropdown.menu>
+            </BsDropdown>
+            {{#if @cycle}}
+            <button type="button" class="button button-square" {{on "click" this.onNextClick}}
+                disabled={{this.isDisabled}}>
+                <FaIcon @icon="chevron-right" />
+            </button>
+            {{/if}}
+            {{#if @info}}
+            <Interactable::ButtonInfo @article={{@info}} />
+            {{/if}}
+        </div>
+    </div>
+</div>

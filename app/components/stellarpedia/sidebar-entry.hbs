@@ -1,0 +1,6 @@
+<button id="sidebar-button-{{this.book.id}}+{{this.chapter.id}}+{{this.entry.id}}" type="button"
+    class="sidebar-collapsible {{if this.highlighted 'sidebar-collapsible-highlighted' }} " {{on "click" (fn
+    this.onClick this.entry this.book.id this.chapter.id)}} {{did-insert this.didInsert}}>
+    <FaIcon @icon="file-lines" class="margin-sides-medium fg-teal-neon" />
+    <p class="margin-vertical-auto">{{stellarpedia/sp-get-entry-header this.entry}}</p>
+</button>

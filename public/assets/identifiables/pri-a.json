@@ -1,0 +1,58 @@
+[
+    {
+        "id": "pri-a/cr",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    },
+    {
+        "id": "pri-a/cl",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    },
+    {
+        "id": "pri-a/in",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    },
+    {
+        "id": "pri-a/ch",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    },
+    {
+        "id": "pri-a/ag",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    },
+    {
+        "id": "pri-a/dx",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    },
+    {
+        "id": "pri-a/cn",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    },
+    {
+        "id": "pri-a/st",
+        "current": 8,
+        "start": 8,
+        "min": 8,
+        "max": 14
+    }
+]
