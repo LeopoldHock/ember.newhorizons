@@ -1,0 +1,28 @@
+name: Ember
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:     
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Deployment
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SSH_PASSPHRASE }} 
+          username: ${{ secrets.SSH_USERNAME }}
+          script: |
+            cd frontend-repository
+            git fetch
+            git checkout -f
+            git pull origin master
+            npm install
+            npm run build
+            rsync -a dist/ ../httpdocs/
