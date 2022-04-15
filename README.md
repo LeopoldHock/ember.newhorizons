@@ -4,7 +4,7 @@
 <a href=https://www.new-horizons-game.com>New Horizons</a> is both a web application and a pen & paper tabletop game. It's aims to bring togeter the best of both the digtal and the analog world: Play classic tabletop with a paper character sheet, a pen, dice and - of course - good friends. Create and edit characters digitally without having to perform calculations manually and enjoy playing a game based on a complex and and carefully crafted ruleset without the need to know any of it in detail.
 
 ## About this repository
-This repository stores New Horizons' frontend code. The New Horizons backend system ist powered by <a href="https://emberjs.com/">ember.js</a>, an awesome JavaScript framework. Ember.js in an absolute blast to work with and I highly recommend checking it out. The community is also very welcoming and the developers are quite active on discord. To run the app locally, you'll need npm and ember-cli. Please refer to the instructions on the ember website if you need any help with that.
+This repository stores New Horizons' frontend code. The New Horizons frontend ist powered by <a href="https://emberjs.com/">ember.js</a>, an awesome JavaScript framework. Ember.js in an absolute blast to work with and I highly recommend checking it out. The community is also very welcoming and the developers are quite active on discord. To run the app locally, you'll need npm and ember-cli. Please refer to the instructions on the ember website if you need any help with that.
 
 ## Contributing
 
