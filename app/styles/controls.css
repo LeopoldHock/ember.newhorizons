@@ -24,6 +24,11 @@
     align-items: center;
 }
 
+.interactable-container .label {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .label-position-left {
     flex-wrap: nowrap;
     flex-direction: row;
