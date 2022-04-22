@@ -464,6 +464,12 @@ route:
       social-status: Sozialstatus
       title: Persönliches
       weight: Gewicht (kg)
+      tutorial-01:
+        title: Sag mir, wer Du bist...
+        text: "Hier kannst Du die wichtigsten Eckdaten Deines Charakters eingeben. Keine Sorge: Die Eingaben dienen nur dazu, Deinen Charakter zu beschreiben. Dir entstehen daraus keine Vor- oder Nachteile im Spiel. Eine Ausnahme bildet der Sozialstatus, zu dem Du unten weitere Informationen findest."
+      tutorial-02:
+        title: Der Sozialstatus
+        text: Der Sozialstatus ist das einzige persönliche Merkmal, das einen direkten Einfluss auf das Spielgeschehen haben kann. Er beschreibt, welcher sozialen Schicht Dein Charakter zuzuordnen ist und reicht von 1 bis 10. Jeder Punkt kostet Dich einen Generierungspunkt (GP).
     preset:
       available-ip: Verfügbare Interessenspunkte (IP)
       custom: Benutzerdefiniert (für Fortgeschrittene!)
@@ -472,14 +478,14 @@ route:
       max-traits: Maximum Merkmale
       min-traits: Minimum Merkmale
       preset: Voreinstellung
-      show-tutorials: Tutorials anzeigen
+      show-tutorials: Tipps anzeigen
       start: Erschaffung beginnen
       start-ep: Start-Erfahrungspunkte
       start-fp: Start-Schicksalspunkte
       start-money: Startkapitel-Bonus
       tutorial-01:
         title: Bevor es losgeht...
-        text: Hier kannst Du aus einer Reihe von Voreinstellungen für die Charaktererstellung wählen oder alle Parameter für die Charaktererstellung selbst anpassen. Wenn Du nicht weißt, was Du hier einstellen sollst und Dir Deine Spielleiterin oder Dein Spielleiter nichts dazu gesagt hat, klicke einfach direkt auf "Erschaffung beginnen"! Außerdem kannst Du weiter unten über die Schaltfläche 'Tutorials anzeigen' einstellen, ob Du diese Hilfestellungen sehen möchtest.
+        text: Hier kannst Du aus einer Reihe von Voreinstellungen für die Charaktererstellung wählen oder alle Parameter für die Charaktererstellung selbst anpassen. Wenn Du nicht weißt, was Du hier einstellen sollst und Dir Deine Spielleiterin oder Dein Spielleiter nichts dazu gesagt hat, klicke einfach direkt auf "Erschaffung beginnen"! Außerdem kannst Du weiter unten über die Schaltfläche 'Tipps anzeigen' einstellen, ob Du diese Hilfestellungen sehen möchtest.
       title: Voreinstellungen
     skills:
       available-skills: Verfügbare Fähigkeiten
