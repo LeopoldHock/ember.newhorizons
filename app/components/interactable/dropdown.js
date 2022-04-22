@@ -22,9 +22,9 @@ export default class DropdownComponent extends InteractableComponent {
         if (!this.isInitialized) {
             let items = this.items.content || this.items;
             if (this.defaultItem) {
-                this.onItemClicked(this.defaultItem);
+                this.selectItem(this.defaultItem);
             } else {
-                this.onItemClicked(items[0]);
+                this.selectItem(items[0]);
             }
             this.isInitialized = true;
         }
@@ -58,15 +58,19 @@ export default class DropdownComponent extends InteractableComponent {
         }
     }
 
-    // internal event that handles dropdown selection
-    @action onItemClicked(item) {
-        if (this.isDisabled) return;
+    @action selectItem(item) {
         // do dropdown specific stuff
         this.selectedItem = item;
         // try to call onChange(itemID)
         if (typeof this.onChangeListener === this.manager.constants.typeOfFunction) {
             this.onChangeListener(item, this);
         }
+    }
+
+    // internal event that handles dropdown selection
+    @action onItemClicked(item) {
+        if (this.isDisabled) return;
+        this.selectItem(item);
     }
 
     @action onPreviousClick() {
@@ -106,7 +110,7 @@ export default class DropdownComponent extends InteractableComponent {
                         }
                     }
                 }
-                this.onItemClicked(items[newIndex]);
+                this.selectItem(items[newIndex]);
                 break;
             }
         }
