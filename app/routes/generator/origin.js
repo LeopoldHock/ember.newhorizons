@@ -19,7 +19,7 @@ export default class MainGeneratorOriginRoute extends Route {
         return RSVP.hash({
             origins: this.database.loadCollection("origin"),
             selectedOrigin: this.database.getIdentifiable(originId),
-            selectedStellarpediaEntry: this.stellarpedia.gegetStellarpediaElementt("basic-rules", "supplement-origins", originId),
+            selectedStellarpediaEntry: this.stellarpedia.getStellarpediaElement("basic-rules", "supplement-origins", originId),
             skills: this.database.loadCollection("skill")
         });
     }
