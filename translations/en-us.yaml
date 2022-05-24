@@ -1,0 +1,845 @@
+---
+ability:
+  general:
+    acclimatization: Akklimatisierung
+    armor-habituation-1: Rüstungsgewöhnung I
+    armor-habituation-2: Rüstungsgewöhnung II
+    armor-habituation-3: Rüstungsgewöhnung III
+    combat-experience: Kampferfahrung
+    implant-habituation-1: Implantatgewöhnung I
+    implant-habituation-2: Implantatgewöhnung II
+    language: Sprachkenntnis
+    local-knowledge: Gebietskunde
+    master-of-improvisation: Meister der Improvisation
+    mid-hacking: MID-Hacking
+    quick-drawing: Schnellziehen
+    reflexes-1: Reflexe I
+    reflexes-2: Reflexe II
+    specialisation: Fähigkeitspezialisierung
+    steady: Standfest
+    strong-nerves: Starke Nerven
+    vti-commanding: VTI-Taktieren
+    wealth-of-knowledge: Immenser Wissensschatz
+  melee:
+    aimed-strike: Gezielter Schlag
+    breakaway: Befreiungsschlag
+    disarming: Entwaffnen
+    evasion-1: Ausweichen I
+    evasion-2: Ausweichen II
+    evasion-3: Ausweichen III
+    feint: Finte
+    full-attack: Ausfall
+    improved-parrying: Verbesserte Parade
+    knocking-down: Umwerfen
+    power-attack: Wuchtschlag
+    resisting: Widerstehen
+    stunning-strike: Betäubungsschlag
+    twohanded-melee: Beidhändiger Nahkampf
+  ranged:
+    accurate: Treffsicher
+    barrage-fire: Sperrfeuer
+    experienced-heavy-weapons-user: Erfahrung mit schweren Waffen
+    focus: Fokus
+    precision-shot-1: Präzisionsschuss I
+    precision-shot-2: Präzisionsschuss II
+    precision-shot-3: Präzisionsschuss III
+    prepare-attack: Angriff vorbereiten
+    twohanded-ranged: Beidhändiger Fernkampf
+  vehicles:
+    barrel-roll: Fassrolle
+    broadside: Breitseite
+    dive-attack: Sturzangriff
+    flying-ace: Fliegerass
+    low-level-flight: Tiefflug
+    luring-flight: Lockflug
+    onboard-marksman-1: Bordschütze I
+    onboard-marksman-2: Bordschütze II
+    onboard-marksman-3: Bordschütze III
+    outmaneuvering-1: Ausmanövrieren I
+    outmaneuvering-2: Ausmanövrieren II
+    rapid-turnaround: Kehrtwende
+    save-driving-land-vehicles: Sicheres Fahren (Landfahrzeuge)
+    save-driving-water-vehicles: Sicheres Fahren (Wasserfahrzeuge)
+ability-category:
+  general: Allgemeine Sonderfertigkeiten
+  melee: Nahkampfsonderfertigkeiten
+  ranged: Fernkampfsonderfertigkeiten
+  vehicles: Fahrzeugsonderfertigkeiten
+app:
+  mid-hacking:
+    expose: Expose
+    freeze: Freeze
+    fuck-you-sesame: "Fuck you, Sesame!"
+    iffoverride: IFFOverride
+    instant-sc: InstantSC
+    nade-safe: NadeSafe
+    overheat: Overheat
+    slow: Slow
+    takeOver: TakeOver
+    taunt: Taunt
+  vti-commanding:
+    order-take-aim: "Befehl: Zielen"
+    order-move: "Befehl: Bewegen"
+    order-open-fire: "Befehl: Feuer eröffnen"
+    order-take-cover: "Befehl: Deckung einnehmen"
+    recon-cover: "Aufklärung: Deckung"
+    recon-equipment: "Aufklärung: Ausrüstung"
+    recon-life-signs: "Aufklärung: Lebenszeichen"
+    recon-trajectories: "Aufklärung: Flugvektoren"
+    recon-weak-spot: "Aufklärung: Schwachstelle"
+character:
+  social-status: Sozialstatus
+character-preset:
+  default: Standard
+  hero: Held*In
+component:
+  list:
+    abilities:
+      column:
+        ability: Sonderfertigkeit
+        details: Details
+        costs-ep: EP
+        costs-gp: GP
+    skills:
+      column:
+        constraint: Einschränkung
+        costs-ep: EP
+        costs-ip: IP
+        factor: Faktor
+        skill: Fähigkeit
+        level: Stufe
+    traits:
+      column:
+        costs: GP
+        details: Details
+        level: Stufe
+        trait: Merkmal
+  sign-in:
+    email-label: Email
+    email-placeholder: Gib Deine Email ein
+    forgot-password:
+      text-01: Passwort vergessen?
+      text-02: Kein Problem.
+    need-verification-key:
+      text-01: Verifizierungscode verloren?
+      text-02: Wir haben noch welche.
+    no-account-yet:
+      text-01: Noch keinen Account?
+      text-02: Hier geht's lang!
+    password-label: Passwort
+    password-placeholder: Gib Dein Passwort ein
+    submit: Anmelden
+contraint:
+  long: Einschränkung
+  short: EN
+interactable:
+  button:
+    loading: Lade...
+item:
+  ammunition:
+    ab-c100: Panzerbrechende Munition .100
+    ab-c35: Panzerbrechende Munition .35
+    ab-c50: Panzerbrechende Munition .50
+    ab-c75: Panzerbrechende Munition .75
+    ab-g50: Panzerbrechende Munition .50 (Schrot)
+    ab-g75: Panzerbrechende Munition .75 (Schrot)
+    decoy-flare: Leuchtkörper
+    decoy-plasma-capsule: Plasmakanüle
+    fmj-c19: Vollmantelmunition .19
+    fmj-c25: Vollmantelmunition .25
+    fmj-c35: Vollmantelmunition .35
+    fmj-c50: Vollmantelmunition .50
+    fmj-c75: Vollmantelmunition .75
+    fmj-g35: Vollmantelmunition .35 (Schrot)
+    fmj-g50: Vollmantelmunition .50 (Schrot)
+    fmj-g75: Vollmantelmunition .75 (Schrot)
+    hp-c25: Hohlspitzmunition .25
+    hp-c35: Hohlspitzmunition .35
+    hp-c50: Hohlspitzmunition .50
+    hp-c75: Hohlspitzmunition .75
+    hp-g35: Hohlspitzmunition .35 (Schrot)
+    hp-g50: Hohlspitzmunition .50 (Schrot)
+    hp-g75: Hohlspitzmunition .75 (Schrot)
+    mag-c100: Magnetische Munition .100
+    mag-c35: Magnetische Munition .35
+    mag-c50: Magnetische Munition .50
+    mag-c75: Magnetische Munition .75
+    mfc-large: Mikrofusionszelle (A)
+    mfc-small: Mikrofusionszelle (AAA)
+  armor:
+    arma-titanis: Armatura Titanis
+    arma-titanis-arms: Armatura Titanis - Armschiene
+    arma-titanis-helmet: Armatura Titanis - Helm
+    arma-titanis-legs: Armatura Titanis - Beinschiene
+    arma-titanis-torso: Armatura Titanis - Brustpanzer
+    behring-mirror: Behring Spiegelrüstung
+    behring-mirror-arms: Behring Spiegelrüstung - Armschiene
+    behring-mirror-helmet: Behring Spiegelrüstung - Helm
+    behring-mirror-legs: Behring Spiegelrüstung - Beinschiene
+    behring-mirror-torso: Behring Spiegelrüstung - Brustpanzer
+    lwfn7-: LWF NL-7 Stahlrüstung
+    lwfn7-arms: LWF NL-7 Stahlrüstung - Armschiene
+    lwfn7-helmet: LWF NL-7 Stahlrüstung - Helm
+    lwfn7-legs: LWF NL-7 Stahlrüstung - Beinschiene
+    lwfn7-torso: LWF NL-7 Stahlrüstung - Brustpanzer
+    marsian-red-plate: Marsianische Rote Platte
+    marsian-red-plate-arms: Marsianische Rote Platte - Armschiene
+    marsian-red-plate-helmet: Marsianische Rote Platte - Helm
+    marsian-red-plate-legs: Marsianische Rote Platte - Beinschiene
+    marsian-red-plate-torso: Marsianische Rote Platte - Brustpanzer
+    pilot-suit-omega: Pilotenanzug "Omega"
+    pilot-suit-omega-space-suit: Pilotenanzug "Omega"
+  clothing:
+    dress-average: Kleid (ordentlich)
+    dress-cheap: Kleid (billig)
+    dress-expensive: Kleid (teuer)
+    jacket-average: Jacke (ordentlich)
+    jacket-cheap: Jacke (billig)
+    jacket-expensive: Jacke (teuer)
+    pants-average: Hose (ordentlich)
+    pants-cheap: Hose (billig)
+    pants-expensive: Hose (teuer)
+    shirt-average: Shirt (ordentlich)
+    shirt-cheap: Shirt (billig)
+    shirt-expensive: Shirt (teuer)
+    shoes-average: Schuhe (ordentlich)
+    shoes-cheap: Schuhe (billig)
+    shoes-expensive: Schuhe (teuer)
+    suit-average: Anzug (ordentlich)
+    suit-cheap: Anzug (billig)
+    suit-expensive: Anzug (teuer)
+  consumable:
+    first-aid-box: Erste-Hilfe-Kasten
+    first-aid-set: Erste-Hilfe-Set
+    supplies-average: Vorräte (durchschnittlich)
+    supplies-cheap: Vorräte (billig)
+    supplies-expensive: Vorräte (teuer)
+  general:
+    ar-visor: AR-Visor
+    backpack-large: Rucksack (20 Liter)
+    backpack-medium: Rucksck (10 Liter)
+    backpack-small: Rucksack (5 Liter)
+    camping-dishes: Camping-Geschirr
+    canteen: Trinkflasche
+    flashlight: Taschenlampe
+    gas-cartridge: Gaskartusche
+    gas-cooker: Gaskocher
+    micro-fusion-cooker: Mikrofusionskocher
+    mobi: Mobi
+    sleeping-bag-thick: Schlafsack (dick)
+    sleeping-bag-thin: Schlafsack (dünn)
+    washbag: Kulturbeutel
+  resource:
+    aluminium: Aluminium
+    aluminium-alloy: Aluminiumlegierung
+    beryllium: Beryllium
+    chrome: Chrom
+    cobalt: Kobalt
+    copper: Kupfer
+    copper-beryllium-alloy: Kupfer-Beryllium-Legierung
+    diamond: Diamant
+    electronic-components: Elektronikkomponenten
+    glass: Glas
+    gold: Gold
+    hydrogen: Wasserstoff
+    iridium: Iridium
+    iron: Eisen
+    lithium: Lithium
+    luminant: Leuchtmittel
+    mechanic-components: Mechanikbauteile
+    molybdenum: Molybdän
+    nickel: Nickel
+    nickel-basic-alloy: Nickelbasislegierung
+    niobium: Niob
+    oxygen: Sauerstoff
+    plastics: Kunststoff
+    scrap-metal: Metallschrott
+    silicon: Silizium
+    silver: Silber
+    titanium: Titan
+    vitallium: Vitallium
+    water: Wasser
+    xenon: Xenon
+  weapon-ranged:
+    automatic:
+      be3-u47: BE3 U47 Sturmgewehr
+      lwf-kiara: LWF „Kiara“ Multifunktionskarabiner
+      lwf-viper: LWF „Viper“ Sturmgewehr
+      twt-desert-fox: TWT „Desert Fox“ Maschinenpistole
+    pistol:
+      euro-b4: EURO B4 Combat Pistol
+      lwf-ld35: LWF LD-35
+      lwf-orthrus: LWF „Orthrus“ Repetierflinte
+      takashi-app3: Takashi APP-3
+      twt-hand-cannon: TWT Revolver .50 “Hand Cannon”
+    shotgun:
+      red-golden-boy: RED Alpha-1 „Golden Boy“ Taktische Schrotflinte
+      vcr-506: VCR Typ 506 Automatische Schrotflinte
+item-category:
+  ammunition: Munition
+  armor: Rüstung
+  clothing: Kleidung
+  components: Komponenten
+  consumables: Verbrauchswaren
+  general: Allgemeine Gegenstände
+  personal-items: Persönliche Gegenstände
+  resources: Rohstoffe
+  travelling-equipment: Reiseausrüstung
+  weapons-melee: Nahkampfwaffen
+  weapons-ranged: Fernkampfwaffen
+misc:
+  character-trait: Charakterzug
+  skill-category: Fähigkeitskategorie
+  skill: Fähigkeit
+  before-unload-confirm-message: Es sieht so aus, als hättest Du noch ungespeicherte Änderungen in einem Deiner Charaktere oder eine laufende Charaktererstellung. Wenn Du die Seite verlässt, gehen alle ungespeicherten Änderungen verloren.
+  cancel: Abbrechen
+  close: Schließen
+  "no": Nein
+  no-data: Keine Einträge.
+  ok: OK
+  or: oder
+  page-unload-warning: Du hast ungespeicherte Änderungen (z.B. eine begonnene Charaktererstellung oder einen Charakter, den Du gerade bearbeitest). Wenn Du die Seite verlässt, gehen diese Änderungen verloren.
+  sorry: Entschuldigung!
+  "yes": Ja
+modal:
+  applog:
+    title: Application Log
+    utc: UTC
+  character-owns-skill:
+    text: Der Charakter verfügt bereits über diese Fähigkeit.
+    title: Fähigkeit schon vorhanden
+  character-owns-trait:
+    text: Der Charakter verfügt bereits über dieses Merkmal. Falls das Merkmal über Optionen oder Eingabemöglichkeiten verfügt, wurde dasselbe Merkmal mit genau derselben Option oder Eingabe gefunden.
+    title: Merkmal schon vorhanden
+  character-owns-ability:
+    title: Sonderfertigkeit schon vorhanden
+    text: Der Charakter verfügt bereits über diese Sonderfertigkeit. Falls die Sonderfertigkeit über Optionen oder Eingabemöglickeiten verfügt, wurde dieselbe Sonderfertigkeit mit genau derselben Option oder Eingabe gefunden.
+  email-verification-error:
+    text-01: Leider konnten wir Deine Email-Adresse nicht verifizieren. Vielleicht hast Du einen ungültigen Code oder Dein Account wurde bereits gelöscht, weil Du die Verifizierung nicht innerhalb von 24 Stunden durchgeführt hast.
+    title: Verifizierung fehlgeschlagen
+  email-verification-success:
+    text-01: Wir haben Deine Email-Adresse verifiziert. Du kannst Dich jetzt anmelden. Herzlich Willkommen!
+    title: Verifizierung erfolgreich
+  forgot-password:
+    text-01: Wenn Du Dein Passwort vergessen hast, kannst Du es hier zurücksetzen. Du erhältst dann eine Email und einen Link, mit dem Du ein neues Passwort vergeben hast.
+    title: Passwort vergessen?
+    yes-label: Passwort zurücksetzen
+  forgot-password-confirm:
+    text-01: Wir haben Dir eine Email zum Zurücksetzen deines Passworts geschickt. Bitte folge den Anweisungen in der Email, um ein neues Passwort zu vergeben.
+    title: Email gesendet
+  game:
+    requirements-failed:
+      text: "Der Charakter erfüllt folgende Voraussetzungen nicht:"
+      title: Voraussetzungen nicht erfüllt
+    restriction-violated:
+      Text: "Folgende Dinge sind nicht miteinander kombinierbar:"
+      title: Unerlaubte Aktion
+  report-bug:
+    description-01: Beschreibung
+    description-02: Bitte beschreibe den Bug so genau wie möglich. Was wolltest Du tun? Was ist passiert?
+    email-01: Email
+    email-02: Wenn Du eine Email-Adresse angibst, können wir Dich bei Rückfragen erreichen.
+    include-log-01: Application Log senden
+    include-log-02: Das Application Log hilft uns dabei, den Fehler zu finden. Es enthält Informationen darüber, was Du während dieser Sitzung auf der Webseite bereits gemacht hast (z.B. einen Charakter geladen, eine Fähigkeit erworben o.ä.).
+    reproduction-01: Reproduktion
+    reproduction-02: Bitte beschreibe, wie man den Bug reproduzieren kann. Welche (Unter-)Seiten hast Du besucht und welche Funktionen hast Du genutzt, bevor das Problem aufgetaucht ist?
+    send: Absenden
+    title: Bug melden
+  report-bug-success:
+    text-01: "Vielen Dank! Das hilft uns sehr, um New Horizons noch besser zu machen."
+    title: Bug gemeldet!
+    yes-label: Gern geschehen!
+  report-exception:
+    text-01: "Das hätte nicht passieren sollen. Es ist folgender Fehler aufgetreten:"
+    text-02: Es wäre eine große Hilfe, wenn Du den Fehler melden würdest. Möchtest Du das jetzt tun?
+  request-verification-code:
+    text-01: Wenn Du den Verifizierungscode für Deine Registrierung nicht erhalten oder verloren hast, kannst Du ihn Dir erneut zusenden lassen.
+    title: Konto verifizieren
+    yes-label: Code anfordern
+  request-verification-code-confirm:
+    text-01: Wir haben Dir Deinen Verifizierungscode zugeschickt. Solltest Du innerhalb der nächsten Minuten keine Email erhalten, kann es sein, dass Dein Konto schon wieder gelöscht wurde, weil Du es nicht rechtzeitig verifiziert hast. In diesem Fall kannst Du Dich einfach nochmal registrieren.
+    title: Code gesendet
+  rest-password-error:
+    text-01: Dein Passwort konnte aufgrund eines Fehlers nicht geändert werden. Bitte versuche es später noch einmal.
+    title: Passwort nicht geändert
+  rest-password-success:
+    text-01: Dein Passwort wurde geändert. Du kannst Dich jetzt mit Deinem neuen Passwort anmelden.
+    title: Passwort geändert
+  restart-generation:
+    text: Derzeit läuft bereits eine Charaktererstellung. Wenn Du fortfährst, wird die laufende Charaktererstellung abgebrochen und die Charaktererstellung neugestartet. Dein Fortschritt geht dann verloren.
+    title: Laufende Charaktererstellung
+  sign-in:
+    title: Anmelden
+  sign-in-error:
+    text-01: Bei Deiner Anmeldung ist etwas schiefgegangen. Bitte versuche es später nochmal!
+  sign-out:
+    text-01: Möchtest Du wirklich schon gehen? :'(
+    title: Abmelden
+  sign-up-duplicate:
+    text-01: Wir haben bereits ein Konto mit Deiner Email. Wenn Du Dein Passwort vergessen hast, kannst Du es jederzeit zurücksetzen.
+    title: Schon registriert?
+  sign-up-error:
+    text-01: Bei Deiner Registrierung ist etwas schiefgegangen. Bitte versuche es später nochmal!
+  sign-up-success:
+    text-01: Wir haben Deine Registrierung erhalten und einen Code an die von Dir angegebene Email-Adresse geschickt, mit dem Du Deine Registrierung bestätigen kannst. Bitte erledige das in den nächsten 48 Stunden, um Deine Registrierung abzuschließen.
+    title: Fast geschafft!
+  stellarpedia:
+    share:
+      title: Stellarpedia-Link teilen
+      text: Teile den folgenden Link, um direkt zu diesem Artikel zu verweisen.
+      copy-link: Link kopieren
+      link-copied: Link kopiert!
+  wrong-credentials:
+    text-01: Du hast entweder Deine Email oder Dein Passwort falsch eingegeben.
+    text-02: Passwort vergessen?
+    title: Falsche Anmeldedaten
+origin:
+  ceres: Kolonie Ceres
+  codex-moons: Silbernes Reich - Minenkolonien
+  codex-triton: Silbernes Reich - Triton
+  earth-rural: Erde - Abseits der Städte
+  earth-urban: Erde - Großstädte und Raumstationen
+  europa: Republik Europa
+  ganymede: Kolonie Ganymed
+  mars: Kolonie Mars
+  miranda: Trümmerstadt Miranda
+  titan: Kolonie Titan
+  venus: Kolonie Venus
+pri-a:
+  ag-short: BE
+  ag: Beweglichkeit
+  ch-short: CH
+  ch: Charisma
+  cl-short: KL
+  cl: Klugheit
+  cn-short: KO
+  cn: Konstitution
+  cr-short: MU
+  cr: Mut
+  dx-short: FF
+  dx: Fingerfertigkeit
+  in-short: IN
+  in: Intuition
+  st-short: ST
+  st: Stärke
+route:
+  application:
+    title: New Horizons
+  generator:
+    abilities:
+      title: Sonderfertigkeiten
+      available-gp: Verfügbare Generierungspunkte (GP)
+      abilities-max: Anzahl erworben
+      available-abilities: Verfügbare Sonderfertigkeiten
+      owned-abilities: Erworbene Sonderfertigkeiten
+    apps:
+      title: Apps
+      no-apps: Der Charakter verfügt über keine Sonderfertigkeit, die ihn zum Erwerb von Apps qualifiziert.
+    attributes:
+      ap-available: Verfügbare Attributpunkte (AP)
+      primary-attributes: Primärattribute
+      secondary-attributes: Sekundärattribute
+    new-character: Neuer Charakter
+    origin:
+      title: Herkunft
+      submit: Herkunft wählen
+      tutorial-01:
+        title: Sag mir, woher Du kommst...
+        text: Der erste Schritt der Charaktererstellung ist die Wahl der Herkunft. Hier gibst Du an, von welchem Ort Dein Charakter stammt - also wo er aufgewachsen oder den Großteil seiner Kindheit und Jugend verbracht hat. Die Herkunft entscheidet nicht nur über den kulturellen Hintergrund, sondern auch über einige spielerische Vorteile - nimm Dir also genügend Zeit und entscheide mit Bedacht!
+    origin-select:
+      choose-skill: Wähle eine Fähigkeit...
+      mother-tongue: Wähle eine Muttersprache
+      mother-tongue-subtitle: Du kannst eine beliebige moderne Sprache wählen. Bedenke aber, dass nicht alle Sprachen im Sonnensystem gleichermaßen häufig sind. Die im Sonnensystem am meisten verbreitete Sprache ist Solaire, eine Art Englisch mit verschiedensten Einflüssen anderer, meist europäischer Sprachen. Solaire ist fast überall Amtssprache.
+      submit: Wahl bestätigen
+    personal:
+      age: Alter
+      appearance: Äußere Erscheinung
+      appearance-placeholder: Beschreibe die äußere Erscheinung Deines Charakters. Wie wirkt er auf andere? Welche markanten Merkmale zeichnen ihn aus?
+      birthday: Geburtstag
+      family: Familäre Herkunft o.ä.
+      family-placeholder: Beschreibe knapp die Herkunft Deines Charakters. Wie und wo ist er aufgewachsen? Wie heißen seine engsten Familienmitglieder, Verwandte oder Freunde?
+      height: Größe (cm)
+      name: Name
+      sex: Geschlecht
+      social-status: Sozialstatus
+      title: Persönliches
+      weight: Gewicht (kg)
+      tutorial-01:
+        title: Sag mir, wer Du bist...
+        text: "Hier kannst Du die wichtigsten Eckdaten Deines Charakters eingeben. Keine Sorge: Die Eingaben dienen nur dazu, Deinen Charakter zu beschreiben. Dir entstehen daraus keine Vor- oder Nachteile im Spiel. Eine Ausnahme bildet der Sozialstatus, zu dem Du unten weitere Informationen findest."
+      tutorial-02:
+        title: Der Sozialstatus
+        text: Der Sozialstatus ist das einzige persönliche Merkmal, das einen direkten Einfluss auf das Spielgeschehen haben kann. Er beschreibt, welcher sozialen Schicht Dein Charakter zuzuordnen ist und reicht von 1 bis 10. Jeder Punkt kostet Dich einen Generierungspunkt (GP).
+    preset:
+      available-ip: Verfügbare Interessenspunkte (IP)
+      custom: Benutzerdefiniert (für Fortgeschrittene!)
+      gp-bonus: Generierungspunkte-Bonus
+      max-abilities: Maximum Sonderfertigkeiten
+      max-traits: Maximum Merkmale
+      min-traits: Minimum Merkmale
+      preset: Voreinstellung
+      show-tutorials: Tipps anzeigen
+      start: Erschaffung beginnen
+      start-ep: Start-Erfahrungspunkte
+      start-fp: Start-Schicksalspunkte
+      start-money: Startkapitel-Bonus
+      tutorial-01:
+        title: Bevor es losgeht...
+        text: Hier kannst Du aus einer Reihe von Voreinstellungen für die Charaktererstellung wählen oder alle Parameter für die Charaktererstellung selbst anpassen. Wenn Du nicht weißt, was Du hier einstellen sollst und Dir Deine Spielleiterin oder Dein Spielleiter nichts dazu gesagt hat, klicke einfach direkt auf "Erschaffung beginnen"! Außerdem kannst Du weiter unten über die Schaltfläche 'Tipps anzeigen' einstellen, ob Du diese Hilfestellungen sehen möchtest.
+      title: Voreinstellungen
+    skills:
+      available-skills: Verfügbare Fähigkeiten
+      interests: Interessen
+      ip-available: Noch zu verteilende Interessenspunkte (IP)
+      owned-skills: Erworbene Fähigkeiten
+      skill-category-ip: Verfügbare IP
+      skills: Fähigkeiten
+      title: Fähigkeiten
+    traits:
+      available-traits: Verfügbare Merkmale
+      gp-available: Verfügbare Generierungspunkte (GP)
+      owned-traits: Erworbene Merkmale
+      title: Merkmale
+  home:
+    card:
+      legacy-generator: Lade Dir den alten Editor für Windows herunter und starte direkt in Dein Abenteuer!
+      sign-up: Registriere Dich, um Zugriff auf weitere Features wie z.B. die Character Cloud zu erhalten.
+      stellarpedia: Stöbere in der Stellarpedia,, dem vollständigen Open-Source-Regelwerk von New Horizons.
+      discord: Besuche unseren Discord und werde Teil der Community von New Horizons.
+      roadmap: Du möchtest wissen, woran wir gerade arbeiten und wie es weiter geht? Wird eineb lick auf die Roadmap.
+  reset-password:
+    new-password-label: Neues Passwort
+    new-password-placeholder: Gib ein neues Passwort ein
+    submit: Neues Passwort speichern
+    title: Passwort ändern
+  sign-in:
+    title: Anmelden
+  sign-up:
+    email-label: Email
+    email-placeholder: Gib Deine Email ein
+    password-label: Passwort
+    password-placeholder: Erstelle ein Passwort
+    password-req-text-01: "Achte darauf, dass das Passwort..."
+    password-req-text-02: ... zwischen 8 und 40 Zeichen lang ist
+    password-req-text-03: "... nur Buchstaben, Zahlen und die Sonderzeichen !@#$%&*()-+=^ enthält"
+    sign-up: Registrieren
+    submit-confirm-text: Mit Deiner Registrierung bestätigst Du, dass Du die Nutzungsbedingungen von New Horizons akzeptierst und die Datenschutzrichtlinien anerkennst.
+    title: Neues Konto registrieren
+    username-label: Benutzername
+    username-placeholder: Gib einen Benutzernamen ein
+sec-a:
+  de-short: VE
+  de: Verteidigung
+  lp-short: LP
+  lp: Lebenspunkte
+  re-short: RE
+  re: Reaktion
+  sp-short: AP
+  sp: Ausdauerpunkte
+  ve-short: GS
+  ve: Geschwindigkeit
+  wt-short: WS
+  wt: Wundschwelle
+sidebar:
+  account:
+    app-log: Application Log
+    not-signed-in: .Du bist nicht angemeldet
+    preferences: Einstellungen
+    report-bug: Bug melden
+    sign-in: Anmelden
+    sign-out: Abmelden
+    sign-up: Registrieren
+    signed-in: Hallo
+  generator:
+    abilities: Sonderfertigkeiten
+    apps: Apps
+    attributes: Attribute
+    finish: Prüfen & Erstellen
+    inventory: Inventar
+    origin: Herkunft
+    personal: Persönliches
+    preset: Voreinstellungen
+    return-to-menu: Zurück zum Hauptmenü
+    skills: Fähigkeiten
+    title: Charaktererstellung
+    traits: Merkmale
+  main:
+    group-editor: Editor
+    group-general: Allgemeines
+    group-rules: Die Spielregeln
+    home: Home
+    imprint: Impressum
+    discord: Discord
+    new-character: Neuen Charakter erstellen
+    sign-in-for-more-options: "Melde Dich an, um Zugriff auf weitere Funktionen zu erhalten."
+    stellarpedia: Stellarpedia
+  stellarpedia:
+    back: Zurück
+    title: Stellarpedia
+skill:
+  combat:
+    energy-weapons: Energiewaffen
+    heavy-weapons: Schwere Waffen
+    melee-hands: Unbewaffneter Nahkampf
+    melee-weapons: Bewaffneter Nahkampf
+    onboard-weapons: Bordgeschütze
+    pistols: Pistolen
+    rifles: Gewehre
+    throwing: Werfen
+  crafting:
+    animal-training: Tiere abrichten
+    computers: Computer
+    cooking: Kochen
+    disguising: Verkleiden
+    drawing: Malen/Zeichnen
+    electrical-engineering: Elektrotechnik
+    explosives: Sprengstoffe
+    making-music: Musik machen
+    material-processing: Materialbearbeitung
+    mechanical-engineering: Konstruktion
+    medical-care: Medizinische Versorgung
+    pharmaceutics: Pharmazie
+    playing-games: Zocken
+    programming: Programmieren
+    writing: Texte verfassen
+  knowledge:
+    art: Kunstverständnis
+    astronomy: Astronomie
+    biology-and-medicine: Biologie und Medizin
+    chemistry: Chemie
+    electronics: Elektronik
+    gaming: Spiel und Glückspiel
+    general-knowledge: Allgemeinwissen
+    geology: Geologie
+    history: Geschichte
+    informatics: Informatik
+    law: Rechtswissenschaften
+    mathematics-and-economy: Mathematik und Wirtschaft
+    music: Musikverständnis
+    orientation: Orientierung
+    physics-and-mechanics: Physik und Mechanik
+    spaceflight: Raumfahrt
+    survival: Überleben
+    tactics-and-strategy: Taktik und Strategie
+  physical:
+    acting: Schauspielern
+    body-control: Körperbeherrschung
+    climbing: Klettern
+    dancing: Tanzen
+    diving: Tauchen
+    imitating-voices: Stimmen imitieren
+    inebriating: Zechen
+    perception: Aufmerksamkeit
+    running: Rennen
+    singing: Singen
+    sneaking-hiding: Schleichen/Verstecken
+    stealing: Taschendiebstahl
+    swimming: Schwimmen
+  social:
+    acting: Schauspielern
+    flirting: Flirten
+    inspiring: Begeistern
+    intimidating: Einschüchtern
+    judgement: Menschenkenntnis
+    reasoning: Rhetorik
+    self-control: Selbstbeherrschung
+    soft-skills: Sozialkompetenz
+    teaching: Lehren
+    trading: Handeln
+  vehicles:
+    extraplanetary-flying: Extraplanetares Fliegen
+    intraplanetary-flying: Intraplanetares Fliegen
+    land-vehicles: Landfahrzeuge
+    water-vehicles: Wasserfahrzeuge
+skill-category:
+  combat: Kampffähigkeiten
+  crafting: Handwerkliche Fähigkeiten
+  knowledge: Wissensfähigkeiten
+  physical: Körperliche Fähigkeiten
+  social: Soziale Fähigkeiten
+  vehicles: Fahrzeugfähigkeiten
+specialisation:
+  skill:
+    combat:
+      onboard-weapons:
+        ballistic-cannons: Ballistische Kanonen (Bordgeschütze)
+        gauss-cannons: Partikelbeschleunigerkanonen (Bordgeschütze)
+        torpedo-launchers: Torpedowerfer (Bordgeschütze)
+      rifles:
+        automatic-rifles: Vollautomatische Karabiner (Gewehre)
+        semi-automatic-rifles: Halbautomatische Gewehre (Gewehre)
+        shotguns: Schrotflinten (Gewehre)
+    crafting:
+      animal-training:
+        any-kind-of-family: Beliebige Familie (Tiere abrichten)
+      cooking:
+        drink-preparation: Getränkezubereitung (Kochen)
+        food-preparation: Essenszubereitung (Kochen)
+      drawing:
+        calligraphy: Kalligrafie (Malen/Zeichnen)
+        painting: Malerei (Malen/Zeichnen)
+        technical-drawing: Technisches Zeichnen (Malen/Zeichnen)
+      electrical-engineering:
+        computer-engineering: Computertechnik (Elektrotechnik)
+        control-engineering: Regelungstechnik (Elektrotechnik)
+        cybernetics: Kybernetik (Elektrotechnik)
+        mechatronics: Mechatronik (Elektrotechnik)
+        power-engineering: Energietechnik (Elektrotechnik)
+      explosives:
+        Ammunition: Munitionsbau (Sprengstoffe)
+        disarming: Entschärfen (Sprengstoffe)
+        explosives-production: Sprengstoffherstellung (Sprengstoffe)
+        fuels: Treibstoffherstellung (Sprengstoffe)
+      making-music:
+        any-kind-of-insrument: Beliebiges Instrument (Musik machen)
+      material-processing:
+        MetalProcessing: Metallverarbeitung (Materialbearbeitung)
+        plastics-processing: Kunststoffverarbeitung (Materialbearbeitung)
+        stone-cutting: Steinbearbeitung (Materialbearbeitung)
+        tailoring: Schneidern (Materialbearbeitung)
+        woodworking: Holzbearbeitung (Materialbearbeitung)
+      mechanical-engineering:
+        machinery-construction: Maschinenbau (Konstruktion)
+        strutural-engineering: Bautechnik (Konstruktion)
+        vehicle-construction: Fahrzeugbau (Konstruktion)
+        weapon-smithing: Waffentechnik (Konstruktion)
+      medical-care:
+        internal-medicine: Innere Medizin (Medizinische Versorgung)
+        neurology: Neurologie (Medizinische Versorgung)
+        psychology: Psychologie (Medizinische Versorgung)
+        veterinary-medicine: Veterinärmedizin (Medizinische Versorgung)
+      pharmaceutics:
+        pharmacology: Pharmakologie (Pharmazie)
+        toxicology: Toxikologie (Pharmazie)
+      playing-games_:
+        gambling: Glücksspiel (Zocken)
+        video-gaming: Videospiele (Zocken)
+      programming:
+        hacking: Hacking (Programmieren)
+        software-engineering: Softwareentwicklung (Programmieren)
+      writing:
+        fictional-writing: Fiktionale Texte (Texte verfassen)
+        journalistic-writing: Journalistische Texte (Texte verfassen)
+        scientific-writing: Wissenschaftliche Texte (Texte verfassen)
+stellarpedia:
+  article:
+    origin:
+      attribute-bonus: Attributbonus
+      skill-bonuses: Fähigkeitenboni
+    primary-attribute:
+      factor: Faktor
+      used-in-secondary-attributes: Verwendet von Sekundärattributen
+      used-in-skills: Verwendet von Fähigkeiten
+    trait:
+      gp: GP
+      gp-cost: Kosten
+      gp-bonus: Bonus
+      has-level: Dieses Merkmal ist steigerbar.
+      needs-input: Dieses Merkmal erfordert eine Eingabe.
+      options: Optionen
+  book:
+    arsenal: Arsenal des Sonnensystems
+    atlas: Atlas des Sonnensystems
+    basic-rules: Basisregelwerk
+    trade-and-craft: Handel und Handwerk
+trait:
+  academic-education: Akademische Ausbildung
+  addiction: Sucht
+  annoying-voice: Unangenehme Stimme
+  arrogance: Arrogant
+  bad-regeneration: Schlechte Regeneration
+  bad-reputation: Schlechter Ruf
+  bad-trait: "Charakterzug:"
+  bitter: Verbittert
+  bloodthirsty: Blutdurstig
+  clumsy: Tollpatsch
+  combat-training: Kampfausbildung
+  competetive-sportsman: Leistungssportler
+  confrontational: Streitlustig
+  connections: Verbindungen
+  curious: Neugierig
+  debt: Schulden
+  delusions: Wahnvorstellungen
+  digital-immigrant: Digital Immigrant
+  digital-native: Digital Native
+  egoist: Egoist
+  enhanced-hearing: Empfindliches Gehör
+  enhanced-smelling: Empfindlicher Geruchssinn
+  enhanced-vision: Empfindlicher Sehsinn
+  euphony: Wohlklang
+  favored-by-faith: Schutzengel
+  food-restriction: Nahrungsrestriktion
+  forgetful: Vergesslich
+  good-memory: Gutes Gedächtnis
+  good-reputation: Guter Ruf
+  greedy: Habgierig
+  heavy-sleeper: Langschläfer
+  helpful: Hilfsbereit
+  high-stamina: Hohe Ausdauer
+  high-vigour: Hohe Lebenskraft
+  hoggish: Verfressen
+  homesick: Heimwehkrank
+  horny: Rallig
+  imaginations: Einbildungen
+  immunity: Immunität
+  impulsive: Impulsiv
+  inability-for-skill-category: Unfähigkeit für
+  insomnia: Schlaflosigkeit
+  jinx: Pechvogel
+  job-training: Berufsausbildung
+  joker: Stimmungskanone
+  jump-start: Startvorteil
+  limited-hearing: Eingeschränktes Gehör
+  limited-smelling: Eingeschränkter Geruchssinn
+  limited-vision: Eingeschränkte Sicht
+  loyale: Loyal
+  lucky-at-cards: Glück im Spiel
+  miserable-attribute: Miserables Attribut
+  nemesis: Erzfeind
+  nimble: Flink
+  obese: Fettleibig
+  obligations: Verpflichtungen
+  outdoorsy: Frischluftfanatiker
+  outstanding-attribute: Herausragendes Attribut
+  pacifist: Pazifist
+  pet-pal: Tierfreund
+  phobia: Phobie
+  pilot-training: Pilotenausbildung
+  poor-stamina: Niedrige Ausdauer
+  poor-vigour: Niedrige Lebenskraft
+  prejudices: Vorurteile
+  pretty: Hübsch
+  prudent: Besonnen
+  quick-regeneration: Schnelle Regeneration
+  quick-sleeper: Kurzschläfer
+  robust-circulation: Robuster Kreislauf
+  self-talker: Selbstgespräche
+  sense-of-direction: Richtungssinn
+  sense-of-justice: Gerechtigkeitsgefühl
+  sense-of-time: Zeitgefühl
+  sensitive-to-implants: Implantatempfindlich
+  sickly: Kränklich
+  simplehearted: Naiv
+  sleepwalker: Schlafwandler
+  slowpoke: Schnarchnase
+  small: Kleinwüchsig
+  social-nature: Soziales Wesen
+  special-possession: Besonderer Besitz
+  speech-defect: Sprachfehler
+  spoiled: Verwöhnt
+  stench: Übelriechend
+  submissive: Gefügig
+  talent-for-skill: Begabung für
+  technical-dummie: Technik-Dummie
+  tinkerer: Bastler
+  tough-dog: Zäher Hund
+  unsightly: Unansehnlich
+  vanity: Eitel
+  wanted: Gesucht
+  weather-resistant: Wetterresistent
+  wimp: Weichei
+weight-modifier:
+  backpack: Rucksack (75 %)
+  clothing: Kleidung/Rüstung (50 %)
+  none: Keiner (100 %)
+  storage: Lager (0 %)
