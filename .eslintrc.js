@@ -20,6 +20,7 @@ module.exports = {
   },
   rules: {
     'prefer-const': 'off',
+    'no-unused-vars': 'off',
     "no-useless-escape": "warn",
     "ember/no-classic-components": "warn",
     "ember/no-component-lifecycle-hooks": "warn",
