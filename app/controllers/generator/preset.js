@@ -7,7 +7,9 @@ import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service';
 import { Changeset } from 'ember-changeset';
 import TutorialBoxComponent from 'new-horizons/components/misc/tutorial-box';
+import classic from 'ember-classic-decorator';
 
+@classic
 export default class GeneratorPresetController extends Controller {
     @service manager;
     @service database;

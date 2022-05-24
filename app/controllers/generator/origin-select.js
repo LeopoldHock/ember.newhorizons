@@ -5,17 +5,15 @@ import { tracked } from '@glimmer/tracking';
 import { inject as service } from '@ember/service';
 import { Changeset } from 'ember-changeset';
 import { computed } from '@ember/object';
+import classic from 'ember-classic-decorator';
 
+@classic
 export default class MainGeneratorOriginSelectController extends Controller {
     @service manager;
     @service database;
     @service stellarpedia;
     @service generator;
     @tracked changeset = Changeset(this.model.data);
-
-    init() {
-        super.init();
-    }
 
     @action onSubmit(event) {
         event.preventDefault();
@@ -37,7 +35,7 @@ export default class MainGeneratorOriginSelectController extends Controller {
         }
     }
 
-    @computed("disabled")
+    @computed('disabled', 'generator.originChosen')
     get disableButtons() {
         return this.generator.originChosen;
     }
