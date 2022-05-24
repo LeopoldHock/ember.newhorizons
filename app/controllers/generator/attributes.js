@@ -8,10 +8,6 @@ export default class MainGeneratorAttributesController extends Controller {
     @service database;
     @service generator;
 
-    init() {
-        super.init();
-    }
-
     @action onChange(event, { object, step } = {}) {
         if (object.setLevel(step) !== undefined) {
             this.generator.setAp(-1 * step);

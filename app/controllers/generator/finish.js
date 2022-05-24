@@ -10,8 +10,4 @@ export default class MainGeneratorFinishController extends Controller {
     @service generator;
 
     @tracked changeset = Changeset({});
-
-    init() {
-        super.init();
-    }
 }

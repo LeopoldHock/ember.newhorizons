@@ -10,8 +10,4 @@ export default class MainGeneratorInventoryController extends Controller {
     @service generator;
 
     @tracked changeset = Changeset({});
-
-    init() {
-        super.init();
-    }
 }
