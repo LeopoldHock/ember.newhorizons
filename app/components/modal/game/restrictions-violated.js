@@ -22,12 +22,12 @@ export default class ModalGameRestrictionsViolatedConfirmComponent extends Modal
                 violation.textLeft += ` (${this.manager.localize(this.selectedOption.id)})`
             }
             violation.textRight = `${this.manager.localize(violatedRestriction.id)}`;
-            if (violatedRestriction.input) {
+            if (violatedRestriction.input && violatedRestriction.level) {
+                violation.textRight += ` (${this.manager.localize(violatedRestriction.input)}, ${violatedRestriction.level})`;
+            } else if (violatedRestriction.input) {
                 violation.textRight += ` (${this.manager.localize(violatedRestriction.input)})`;
             } else if (violatedRestriction.level) {
                 violation.textRight += ` (${violatedRestriction.level})`;
-            } else if (violatedRestriction.input && violatedRestriction.level) {
-                violation.textRight += ` (${this.manager.localize(violatedRestriction.input)}, ${violatedRestriction.level})`;
             }
             this.violations.push(violation);
         }

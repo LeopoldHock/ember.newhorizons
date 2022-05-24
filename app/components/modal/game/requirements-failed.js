@@ -22,12 +22,12 @@ export default class ModalGameRequirementsMissingComponent extends ModalComponen
                 requirement.textLeft += ` (${this.manager.localize(this.selectedOption.id)})`
             }
             requirement.textRight = `${this.manager.localize(failedRequirement.id)}`;
-            if (failedRequirement.input) {
+            if (failedRequirement.input && failedRequirement.level) {
+                requirement.textRight += ` (${this.manager.localize(failedRequirement.input)}, ${failedRequirement.level})`;
+            } else if (failedRequirement.input) {
                 requirement.textRight += ` (${this.manager.localize(failedRequirement.input)})`;
             } else if (failedRequirement.level) {
                 requirement.textRight += ` (${failedRequirement.level})`;
-            } else if (failedRequirement.input && failedRequirement.level) {
-                requirement.textRight += ` (${this.manager.localize(failedRequirement.input)}, ${failedRequirement.level})`;
             }
             this.requirements.push(requirement);
         }
