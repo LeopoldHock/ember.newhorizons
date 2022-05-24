@@ -2,18 +2,22 @@
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
-    ecmaFeatures: {
-      legacyDecorators: true,
-    },
-  },
-  plugins: ['ember'],
+  parser: "@typescript-eslint/parser",
+  // parser: 'babel-eslint',
+  // parserOptions: {
+  //   ecmaVersion: 2018,
+  //   sourceType: 'module',
+  //   ecmaFeatures: {
+  //     legacyDecorators: true,
+  //   },
+  // },
+  plugins: [
+    'ember',
+    '@typescript-eslint'
+  ],
   extends: [
     'eslint:recommended',
-    'plugin:ember/recommended'
+    'plugin:ember/recommended',
   ],
   env: {
     browser: true,
@@ -26,9 +30,22 @@ module.exports = {
     "ember/no-component-lifecycle-hooks": "warn",
     "ember/require-tagless-components": "Warn",
     'ember/classic-decorator-hooks': 'error',
-    'ember/classic-decorator-no-classic-methods': 'error'
+    'ember/classic-decorator-no-classic-methods': 'error',
   },
   overrides: [
+    // typescript files
+    {
+      files: ['*.ts'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+      ],
+      // parser: "@typescript-eslint/parser",
+      parserOptions: {
+        tsconfigRootDir: __dirname,
+        project: ['./tsconfig.json'],
+      },
+    },
     // node files
     {
       files: [
