@@ -11,12 +11,6 @@ module.exports = {
     {
       files: ['**/*.ts'],
       rules: {
-        'prettier/prettier': [
-          'error',
-          {
-            endOfLine: 'auto',
-          },
-        ],
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
       },
@@ -24,12 +18,6 @@ module.exports = {
     {
       files: ['**/*.js'],
       rules: {
-        'prettier/prettier': [
-          'error',
-          {
-            endOfLine: 'auto',
-          },
-        ],
         'prefer-const': 'off',
         'no-unused-vars': 'off',
         'no-useless-escape': 'warn',
@@ -38,6 +26,20 @@ module.exports = {
         'ember/require-tagless-components': 'Warn',
         'ember/classic-decorator-hooks': 'error',
         'ember/classic-decorator-no-classic-methods': 'error',
+      },
+    },
+    {
+      files: ['**/*.js', '**/*.ts'],
+      rules: {
+        'prettier/prettier': [
+          'error',
+          {
+            singleQuote: true,
+            printWidth: 120,
+            trailingComma: 'all',
+            endOfLine: 'auto',
+          },
+        ],
       },
     },
   ],
