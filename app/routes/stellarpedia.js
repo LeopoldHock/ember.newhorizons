@@ -1,7 +1,6 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 import { action, set } from '@ember/object';
-import MessageService from 'new-horizons/services/message-service';
 import { getOwner } from '@ember/application';
 import RSVP from 'rsvp';
 
