@@ -29,7 +29,7 @@ export default class InputfieldComponent extends InteractableComponent {
     @action onChange(event) {
         this.changeset.set(this.key, event.srcElement.value);
         if (this.onChangeListener) {
-            this.onChangeListener(event, { key: this.get("key"), changeset: this.get("changeset") });
+            this.onChangeListener(event, { key: this.key, changeset: this.changeset });
         }
     }
 

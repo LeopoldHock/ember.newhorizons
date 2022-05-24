@@ -28,7 +28,7 @@ export default class RadioGroupComponent extends InteractableComponent {
 
     init() {
         super.init();
-        let options = this.get("options");
+        let options = this.options;
         for (let option of options) {
             option.checked = false;
             if (this.default && option.value === this.default) {
@@ -49,13 +49,13 @@ export default class RadioGroupComponent extends InteractableComponent {
     }
 
     get isDisabled() {
-        return (this.get("disabled") || this.get("busy"));
+        return (this.disabled || this.busy);
     }
 
     @action onChange(value) {
         this.changeset.set(this.key, value);
         if (this.onChangeListener) {
-            this.onChangeListener(value, { key: this.get("key"), changeset: this.get("changeset") });
+            this.onChangeListener(value, { key: this.key, changeset: this.changeset });
         }
     }
 }

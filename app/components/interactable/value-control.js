@@ -31,12 +31,12 @@ export default class InputfieldComponent extends InteractableComponent {
         super.init();
     }
 
-    @computed("disabled", "value", "min")
+    @computed('disabled', 'min', 'step', 'value')
     get isDecreaseDisabled() {
         return (this.disabled || (this.getMin() !== undefined && this.value - this.step < this.getMin()));
     }
 
-    @computed("disabled", "value", "max", "budget")
+    @computed('budget', 'budgetMin', 'disabled', 'max', 'step', 'value')
     get isIncreaseDisabled() {
         if (this.disabled) {
             return true;
@@ -50,16 +50,16 @@ export default class InputfieldComponent extends InteractableComponent {
     }
 
     getMin() {
-        if (this.get("min") !== undefined) {
-            return this.get("min");
+        if (this.min !== undefined) {
+            return this.min;
         } else {
             return undefined;
         }
     }
 
     getMax() {
-        if (this.get("max") !== undefined) {
-            return this.get("max");
+        if (this.max !== undefined) {
+            return this.max;
         } else {
             return undefined;
         }
@@ -72,7 +72,7 @@ export default class InputfieldComponent extends InteractableComponent {
             return;
         }
         if (this.onChangeListener) {
-            this.onChangeListener(event, { object: this.get("object"), key: this.get("key"), step: -1 * this.step });
+            this.onChangeListener(event, { object: this.object, key: this.key, step: -1 * this.step });
         }
     }
 
@@ -83,7 +83,7 @@ export default class InputfieldComponent extends InteractableComponent {
             return;
         }
         if (this.onChangeListener) {
-            this.onChangeListener(event, { object: this.get("object"), key: this.get("key"), step: this.step });
+            this.onChangeListener(event, { object: this.object, key: this.key, step: this.step });
         }
     }
 }

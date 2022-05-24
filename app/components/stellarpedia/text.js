@@ -17,6 +17,7 @@ export default class StellarpediaTextComponent extends Component {
 
     @action
     didRender() {
+        super.didRender(...arguments);
         //----------------------------------------------------------------------------//
         // Leopold Hock / 2020-08-23
         // Description:
